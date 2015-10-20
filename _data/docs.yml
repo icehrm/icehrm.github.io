@@ -1,0 +1,42 @@
+- title: Getting Started
+  docs:
+  - home
+  - installation
+
+- title: Admin Guide
+  docs:
+  - companystructure
+  - jobdetails
+  - drafts
+  - pages
+  - variables
+  - collections
+  - datafiles
+  - assets
+  - migrations
+
+- title: Customization
+  docs:
+  - templates
+  - permalinks
+  - pagination
+  - plugins
+  - extras
+
+- title: Deployment
+  docs:
+  - github-pages
+  - deployment-methods
+  - continuous-integration
+
+- title: Miscellaneous
+  docs:
+  - troubleshooting
+  - sites
+  - resources
+  - upgrading
+
+- title: Meta
+  docs:
+  - contributing
+  - history
