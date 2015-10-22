@@ -34,23 +34,17 @@ code in your Jekyll templates:
 In `_data/members.yml`:
 
 {% highlight yaml %}
-- name: Tom Preston-Werner
-  github: mojombo
 
-- name: Parker Moore
-  github: parkr
+- name: Thilina Hasantha
+  github: thilinah
 
-- name: Liu Fengyun
-  github: liufengyun
 {% endhighlight %}
 
 Or `_data/members.csv`:
 
 {% highlight text %}
 name,github
-Tom Preston-Werner,mojombo
-Parker Moore,parkr
-Liu Fengyun,liufengyun
+Thilina Hasantha,thilinah
 {% endhighlight %}
 
 This data can be accessed via `site.data.members` (notice that the filename
@@ -79,25 +73,14 @@ Data files can also be placed in sub-folders of the `_data` folder. Each folder 
 In `_data/orgs/jekyll.yml`:
 
 {% highlight yaml %}
-username: jekyll
-name: Jekyll
+username: gamonoid
+name: Gamonoid
 members:
-  - name: Tom Preston-Werner
-    github: mojombo
+  - name: Thilina Hasantha
+    github: thilinah
 
-  - name: Parker Moore
-    github: parkr
 {% endhighlight %}
 
-In `_data/orgs/doeorg.yml`:
-
-{% highlight yaml %}
-username: doeorg
-name: Doe Org
-members:
-  - name: John Doe
-    github: jdoe
-{% endhighlight %}
 
 The organizations can then be accessed via `site.data.orgs`, followed by the file name:
 
