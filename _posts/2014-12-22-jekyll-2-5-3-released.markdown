@@ -2,7 +2,7 @@
 layout: news_item
 title: 'Jekyll Release for the Holidays! v2.5.3 Out'
 date: 2014-12-22 09:03:30 -0500
-author: parkr
+author: thilinah
 version: 2.5.3
 categories: [release]
 ---

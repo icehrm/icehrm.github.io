@@ -7,8 +7,8 @@ excerpt_separator: ""
 gauges_id:
 google_analytics_id:
 
-repository: https://github.com/thilinah/icehrmblog
-help_url: https://github.com/thilinah/icehrmblog
+repository: https://github.com/gamonoid/icehrm
+help_url: http://icehrm.com
 
 collections:
   docs:
