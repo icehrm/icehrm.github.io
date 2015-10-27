@@ -2,7 +2,7 @@
 layout: docs
 title: Qualifications Setup
 prev_section: jobdetails
-next_section: posts
+next_section: training
 permalink: /docs/qualifications/
 ---
 Skills, Educational Details, Certifications and Languages you define under qualifications setup module will be used by
