@@ -47,7 +47,7 @@ After installation the settings module can be accessed by login in as admin and 
           <td><p><code>Email: Enable</code></p></td>
           <td><p>
     
-            Set this to “No” to disable all outgoing emails from modules. Value “Yes” will enable outgoing emails
+            Set this to "No" to disable all outgoing emails from modules. Value "Yes" will enable outgoing emails
     
           </p></td>
         </tr>
@@ -128,120 +128,166 @@ After installation the settings module can be accessed by login in as admin and 
 </table>
 </div>
 
-## Page Variables
+### Configuring Email with Amazon SES
 
 <div class="mobile-side-scroller">
 <table>
   <thead>
     <tr>
-      <th>Variable</th>
+      <th>Setting</th>
       <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p><code>page.content</code></p></td>
+      <td><p><code>Email: Mode</code></p></td>
       <td><p>
 
-        The content of the Page, rendered or un-rendered depending upon
-        what Liquid is being processed and what <code>page</code> is.
+        This should be set to SES
 
       </p></td>
     </tr>
     <tr>
-      <td><p><code>page.title</code></p></td>
+      <td><p><code>Email: Amazon SES Key</code></p></td>
       <td><p>
 
-        The title of the Page.
+        Amazon access key Id (You can get this through AWS console)
 
       </p></td>
     </tr>
     <tr>
-      <td><p><code>page.excerpt</code></p></td>
+      <td><p><code>Email: Amazone SES Secret</code></p></td>
       <td><p>
 
-        The un-rendered excerpt of the Page.
+        Amazon access key secret
 
       </p></td>
     </tr>
     <tr>
-      <td><p><code>page.url</code></p></td>
+      <td><p><code>Email: Email From</code></p></td>
       <td><p>
 
-        The URL of the Post without the domain, but
-        with a leading slash, e.g.
-        <code>/2008/12/14/my-post.html</code>
+        Authorized email address for sending emails through SES
+
+      </p></td>
+    </tr>
+    
+  </tbody>
+</table>
+</div>
+
+### Configuring Email with Gmail
+
+<div class="mobile-side-scroller">
+<table>
+  <thead>
+    <tr>
+      <th>Setting</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p><code>Email: Mode</code></p></td>
+      <td><p>
+
+        This should be set to SMTP
 
       </p></td>
     </tr>
     <tr>
-      <td><p><code>page.date</code></p></td>
+      <td><p><code>Email: SMTP Host</code></p></td>
       <td><p>
 
-        The Date assigned to the Post. This can be overridden in a Post’s front
-        matter by specifying a new date/time in the format
-        <code>YYYY-MM-DD HH:MM:SS</code> (assuming UTC), or
-        <code>YYYY-MM-DD HH:MM:SS +/-TTTT</code> (to specify a time zone using
-        an offset from UTC. e.g. <code>2008-12-14 10:30:00 +0900</code>).
+        ssl://smtp.gmail.com
 
       </p></td>
     </tr>
     <tr>
-      <td><p><code>page.id</code></p></td>
+      <td><p><code>Email: SMTP Authentication</code></p></td>
       <td><p>
 
-        An identifier unique to the Post (useful in RSS feeds). e.g.
-        <code>/2008/12/14/my-post</code>
+        Yes
 
       </p></td>
     </tr>
     <tr>
-      <td><p><code>page.categories</code></p></td>
+      <td><p><code>Email: SMTP User</code></p></td>
       <td><p>
 
-        The list of categories to which this post belongs. Categories are
-        derived from the directory structure above the <code>_posts</code>
-        directory. For example, a post at
-        <code>/work/code/_posts/2008-12-24-closures.md</code> would have this
-        field set to <code>['work', 'code']</code>. These can also be specified
-        in the <a href="../frontmatter/">YAML Front Matter</a>.
+        yourgmailaddress@gmail.com
 
       </p></td>
     </tr>
     <tr>
-      <td><p><code>page.tags</code></p></td>
+      <td><p><code>Email: SMTP Password</code></p></td>
       <td><p>
 
-        The list of tags to which this post belongs. These can be specified in
-        the <a href="../frontmatter/">YAML Front Matter</a>.
+        Gmail password
 
       </p></td>
     </tr>
     <tr>
-      <td><p><code>page.path</code></p></td>
+      <td><p><code>Email: SMTP Port</code></p></td>
       <td><p>
 
-        The path to the raw post or page. Example usage: Linking back to the
-        page or post’s source on GitHub. This can be overridden in the
-        <a href="../frontmatter/">YAML Front Matter</a>.
+        465
 
       </p></td>
     </tr>
     <tr>
-      <td><p><code>page.next</code></p></td>
+      <td><p><code>Email: Email From</code></p></td>
       <td><p>
 
-        The next post relative to the position of the current post in
-        <code>site.posts</code>. Returns <code>nil</code> for the last entry.
+        yourgmailaddress@gmail.com
+
+      </p></td>
+    </tr>
+    
+  </tbody>
+</table>
+</div>
+
+## Developer Settings
+
+<div class="mobile-side-scroller">
+<table>
+  <thead>
+    <tr>
+      <th>Setting</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p><code>System: Do not pass JSON in request</code></p></td>
+      <td><p>
+
+        Select Yes if you are having trouble loading data for some tables
 
       </p></td>
     </tr>
     <tr>
-      <td><p><code>page.previous</code></p></td>
+      <td><p><code>System: Reset Modules and Permissions</code></p></td>
       <td><p>
 
-        The previous post relative to the position of the current post in
-        <code>site.posts</code>. Returns <code>nil</code> for the first entry.
+        When this is set to “Yes” IceHrm will reset all values given in System->Permissions module. This setting can be used to reload permissions after adding new permissions to module meta.json file
+
+      </p></td>
+    </tr>
+    <tr>
+      <td><p><code>System: Add New Permissions</code></p></td>
+      <td><p>
+
+        Add new permissions without resetting modules
+
+      </p></td>
+    </tr>
+    <tr>
+      <td><p><code>System: Debug Mode</code></p></td>
+      <td><p>
+
+        Print debug log messages
 
       </p></td>
     </tr>
@@ -249,75 +295,66 @@ After installation the settings module can be accessed by login in as admin and 
 </table>
 </div>
 
-<div class="note">
-  <h5>ProTip™: Use Custom Front Matter</h5>
-  <p>
-
-    Any custom front matter that you specify will be available under
-    <code>page</code>. For example, if you specify <code>custom_css: true</code>
-    in a page’s front matter, that value will be available as
-    <code>page.custom_css</code>.
-
-  </p>
-</div>
-
-## Paginator
+## Other Settings
 
 <div class="mobile-side-scroller">
 <table>
   <thead>
     <tr>
-      <th>Variable</th>
+      <th>Setting</th>
       <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p><code>paginator.per_page</code></p></td>
-      <td><p>Number of Posts per page.</p></td>
+      <td><p><code>Leave: Share Calendar to Whole Company</code></p></td>
+      <td><p>
+
+        If "Yes" all the employees of company can see other peoples' leave schedules.
+        If set to "No" only admins and supervisors will be able to see leave schedule of subordinates
+
+      </p></td>
     </tr>
     <tr>
-      <td><p><code>paginator.posts</code></p></td>
-      <td><p>Posts available for that page.</p></td>
+      <td><p><code>Leave: CC Emails</code></p></td>
+      <td><p>
+
+        Every email sent though leave module will be CC to these comma seperated list of emails addresses
+
+      </p></td>
     </tr>
     <tr>
-      <td><p><code>paginator.total_posts</code></p></td>
-      <td><p>Total number of Posts.</p></td>
+      <td><p><code>Leave: BCC Emails</code></p></td>
+      <td><p>
+
+        Every email sent though leave module will be BCC to these comma seperated list of emails addresses
+
+      </p></td>
     </tr>
     <tr>
-      <td><p><code>paginator.total_pages</code></p></td>
-      <td><p>Total number of Pages.</p></td>
+      <td><p><code>Attendance: Time-sheet Cross Check</code></p></td>
+      <td><p>
+
+        Only allow users to add an entry to a timesheet only if they have marked atteandance for the selected period
+
+      </p></td>
     </tr>
     <tr>
-      <td><p><code>paginator.page</code></p></td>
-      <td><p>The number of the current page.</p></td>
+      <td><p><code>Recruitment: Show Quick Apply</code></p></td>
+      <td><p>
+
+        Show quick apply button when candidates are applying for jobs. Quick apply allow candidates to apply with minimum amount of information
+
+      </p></td>
     </tr>
     <tr>
-      <td><p><code>paginator.previous_page</code></p></td>
-      <td><p>The number of the previous page.</p></td>
-    </tr>
-    <tr>
-      <td><p><code>paginator.previous_page_path</code></p></td>
-      <td><p>The path to the previous page.</p></td>
-    </tr>
-    <tr>
-      <td><p><code>paginator.next_page</code></p></td>
-      <td><p>The number of the next page.</p></td>
-    </tr>
-    <tr>
-      <td><p><code>paginator.next_page_path</code></p></td>
-      <td><p>The path to the next page.</p></td>
+      <td><p><code>Recruitment: Show Apply</code></p></td>
+      <td><p>
+
+        Show apply button when candidates are applying for jobs
+
+      </p></td>
     </tr>
   </tbody>
 </table>
-</div>
-
-<div class="note info">
-  <h5>Paginator variable availability</h5>
-  <p>
-
-    These are only available in index files, however they can be located in a
-    subdirectory, such as <code>/blog/index.html</code>.
-
-  </p>
 </div>
