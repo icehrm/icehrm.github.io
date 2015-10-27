@@ -2,7 +2,7 @@
 layout: docs
 title: Settings
 prev_section: installation
-next_section: collections
+next_section: ldap
 permalink: /docs/settings/
 ---
 

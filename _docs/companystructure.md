@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Company Structure
-prev_section: installation
+prev_section: ldap
 next_section: jobdetails
 permalink: /docs/companystructure/
 ---

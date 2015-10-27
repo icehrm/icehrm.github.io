@@ -6,15 +6,7 @@
 - title: Configuaration
   docs:
   - settings
-  - jobdetails
-  - qualifications
-  - drafts
-  - pages
-  - variables
-  - collections
-  - datafiles
-  - assets
-  - migrations
+  - ldap
 
 - title: Admin Guide
   docs:
