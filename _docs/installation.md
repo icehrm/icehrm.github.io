@@ -7,7 +7,7 @@ permalink: /docs/installation/
 ---
 
 Getting IceHrm installed only take a few minutes. If it
-ever becomes a problem, please [file a issue](https://github.com/thilinah/icehrm/issues/new)
+ever becomes a problem, please [file an issue](https://github.com/gamonoid/icehrm/issues/new)
 describing the issue you encountered and how we might make the process easier.
 
 ### Requirements
@@ -17,6 +17,17 @@ you’ll need to make sure your system has before you start.
 
 - [PHP 5.3 or Higher](http://php.net/)
 - [MySQL v5.5](http://dev.mysql.com/downloads/)
+- [php-mysql extention](http://php.net/manual/en/mysqli.installation.php)
+- [PHP GD library](http://php.net/manual/en/mysqli.installation.php)
+        $> apt-get update
+        $> apt-get install php5-gd
+- [php5-json](http://php.net/manual/en/json.installation.php)
+
+#### Optional Modules
+
+These are optional components which could improve icehrm performance
+
+- [Memcache](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-memcache-on-ubuntu-14-04)
 
 
 ### Installation
