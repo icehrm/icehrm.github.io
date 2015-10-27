@@ -2,17 +2,16 @@
 layout: docs
 title: Job Details Setup
 prev_section: companystructure
-next_section: posts
+next_section: qualifications
 permalink: /docs/jobdetails/
 ---
-One of the preliminary process of IceHrm setup is defining job details. Jobs module consist of three 
-sub modules for defining
+Here you can setup all the information related to job titles, pay grades and employment status in your company.
+ 
+<div class="note info">
+  <h5>When these information will be used</h5>
+  <p>All the job titles, pay grades and employment status will be used when creating employees and some sections of leave module</p>
+</div>
 
-- Job Titles
-- Pay Grades
-- Employment Statuses
-
-The job titles, pay grades and employee statuses can be assigned when adding employees to IceHrm
 
 
 

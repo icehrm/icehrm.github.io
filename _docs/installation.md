@@ -19,8 +19,8 @@ you’ll need to make sure your system has before you start.
 - [MySQL v5.5](http://dev.mysql.com/downloads/)
 - [php-mysql extention](http://php.net/manual/en/mysqli.installation.php)
 - [PHP GD library](http://php.net/manual/en/mysqli.installation.php)
-        $> apt-get update
-        $> apt-get install php5-gd
+        -$> apt-get update
+        -$> apt-get install php5-gd
 - [php5-json](http://php.net/manual/en/json.installation.php)
 
 #### Optional Modules
@@ -32,7 +32,7 @@ These are optional components which could improve icehrm performance
 
 ### Installation
 
-- Download the latest release from [GitHub](https://github.com/thilinah/icehrm/releases/latest)
+- Download the latest release from [GitHub](https://github.com/gamonoid/icehrm/releases/latest)
 
 - Copy the downloaded file to the path you want to install iCE Hrm in your server and extract.
 
