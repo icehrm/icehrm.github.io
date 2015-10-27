@@ -3,10 +3,24 @@
   - home
   - installation
 
+- title: Configuaration
+  docs:
+  - settings
+  - jobdetails
+  - qualifications
+  - drafts
+  - pages
+  - variables
+  - collections
+  - datafiles
+  - assets
+  - migrations
+
 - title: Admin Guide
   docs:
   - companystructure
   - jobdetails
+  - qualifications
   - drafts
   - pages
   - variables
