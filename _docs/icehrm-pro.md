@@ -11,7 +11,7 @@ opensource version. Following are the main features in IceHrmPro
 
 ### Advanced Employee Module
 
-![Advanced Employee Module] (https://icehrm.s3.amazonaws.com/images/blog-images/advanced-employee-module.png)
+![Advanced Employee Module](https://icehrm.s3.amazonaws.com/images/blog-images/advanced-employee-module.png)
 
     - Update all employee information without having to switch employees.
     - Search employee skills, qualifications and other information easily across whole company.
@@ -22,6 +22,8 @@ opensource version. Following are the main features in IceHrmPro
 ### Leave Management
 
 ### Audit Trial
+
+### Candidate / Recruitment Management
 
 
 

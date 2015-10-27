@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Leave Module Setup (Part 1)
+title: Leave Module Setup
 prev_section: training
 next_section: home
 permalink: /docs/leave-setup/
@@ -14,11 +14,11 @@ active leave management setup, I'm writing this to walk you through a short tuto
 <div class="note info">
   <h5>Let's assume following:</h5>
   <p>
-  1. You are moving the leave management system to icehrm, in the middle of the leave period for 2015
-  2. Some of your employees have leaves carried forwarded from 2014, which might not have been used
-  3. Your company have annual leave which can be carried forwarded to next year
-  4. Company supported casual leave which are accrued 1.5 per each month
-  5. Some employees have joined in 2015 and their leaves should be proportionate according to joined date
+  1. You are moving the leave management system to icehrm, in the middle of the leave period for 2015<br/>
+  2. Some of your employees have leaves carried forwarded from 2014, which might not have been used<br/>
+  3. Your company have annual leave which can be carried forwarded to next year<br/>
+  4. Company supported casual leave which are accrued 1.5 per each month<br/>
+  5. Some employees have joined in 2015 and their leaves should be proportionate according to joined date<br/>
   </p>
 </div>
 
@@ -52,7 +52,7 @@ by employees using PTO (this will be explained in another section).
 Here I've set leave carried forward to 'Yes' and carry forward percentage to 100% so all the remaining annual leave of
 this year will be carried forward to the next.
 
-2. Setting up casual leave with which are accrued 1.5 per each month and should not be carried forward to the next year
+2. Setting up casual leave which are accrued 1.5 per each month and should not be carried forward to the next year
 
 
 ![Setting up casual leave](https://icehrm.s3.amazonaws.com/images/blog-images/casual-leave-setup.png)
@@ -60,7 +60,7 @@ this year will be carried forward to the next.
 <div class="note info">
   <h5></h5>
   <p>
-  Note that I have entered 18 for leave amount, **this will accrue 1.5 (18/12) days per month since leave period length for 2015 is 12 months**
+  I have entered 18 for leave amount, this will accrue 1.5 (18/12) days per month since leave period length for 2015 is 12 months
   </p>
 </div>
 
@@ -77,7 +77,7 @@ Now assume we have an employee named 'Jhon Doe'. His leave entitlement (under "L
 <div class="note info">
   <h5></h5>
   <p>
-  Note that there are 14.39 leaves are accrued for this year (for the period 2015-01-01 to 2015-10-19). Also it shows the number of day
+  There are 14.39 leaves are accrued for this year (for the period 2015-01-01 to 2015-10-19). Also it shows the number of day
   that will be accrued till end of the year from now, which is 3.61 days
   </p>
 </div>
@@ -103,9 +103,9 @@ After adding the leave balance you will notice that Jhon Doe has 17 annual leave
 
 Let's assume Jhon Doe joined the company in May 2015 and should not be allowed to take only a pat of leave count defined for 2015.
 Then for annual leave definition under "Admin"=>"Leave Settings"=>"Leave Types" you can edit Annual Leave and make 
-**"Proportionate leaves on Joined Date" = "Yes"**
+<code>"Proportionate leaves on Joined Date" = "Yes"</code>
 
 If this is set then Jhon Doe will only be entitled for 18 * (8/12) annual leaves for the year given he has joined on 1st of May 2015
 
-<code>I'll cover other other leave management concepts in icehrm like Leave Groups, Leave Rules in 
+<code>I'll cover other other leave management concepts in icehrm like Leave Groups,<br/> Leave Rules in 
 another article </code>
