@@ -11,15 +11,16 @@ permalink: /docs/leave-setup/
 Since I've have noticed that its not a trivial task to setup the icehrm leave module initially when moving from another 
 active leave management setup, I'm writing this to walk you through a short tutorial.
 
-### Assumptions
-
-Let's assume following:
-
-1. You are moving the leave management system to icehrm, in the middle of the leave period for 2015
-2. Some of your employees have leaves carried forwarded from 2014, which might not have been used
-3. Your company have annual leave which can be carried forwarded to next year
-4. Company supported casual leave which are accrued 1.5 per each month
-5. Some employees have joined in 2015 and their leaves should be proportionate according to joined date
+<div class="note info">
+  <h5>Let's assume following:</h5>
+  <p>
+  1. You are moving the leave management system to icehrm, in the middle of the leave period for 2015
+  2. Some of your employees have leaves carried forwarded from 2014, which might not have been used
+  3. Your company have annual leave which can be carried forwarded to next year
+  4. Company supported casual leave which are accrued 1.5 per each month
+  5. Some employees have joined in 2015 and their leaves should be proportionate according to joined date
+  </p>
+</div>
 
 
 
@@ -31,7 +32,11 @@ what ever the remaining leaves from 2014 to 2015. In that case you have to enter
 manually into IceHrm. So the preferred way is to not create the previous leave period by adding all leave carried forwarded 
 by employees using PTO (this will be explained in another section).
 
-Also note that leave period can have different lengths and can be started from any month in the year.
+
+<div class="note warning">
+  <h5></h5>
+  <p>Also note that leave period can have different lengths and can be started from any month in the year.</p>
+</div>
 
 
 ![Setting up leave periods](https://icehrm.s3.amazonaws.com/images/blog-images/leave-periods.png)
@@ -52,8 +57,13 @@ this year will be carried forward to the next.
 
 ![Setting up casual leave](https://icehrm.s3.amazonaws.com/images/blog-images/casual-leave-setup.png)
 
+<div class="note info">
+  <h5></h5>
+  <p>
+  Note that I have entered 18 for leave amount, **this will accrue 1.5 (18/12) days per month since leave period length for 2015 is 12 months**
+  </p>
+</div>
 
-Note that I have entered 18 for leave amount, **this will accrue 1.5 (18/12) days per month since leave period length for 2015 is 12 months**
 
 
 
@@ -64,8 +74,14 @@ Now assume we have an employee named 'Jhon Doe'. His leave entitlement (under "L
 
 ![Leave entitlement for Jhon Doe](https://icehrm.s3.amazonaws.com/images/blog-images/leave-entitlement1.png)
 
-*Note that there are 14.39 leaves are accrued for this year (for the period 2015-01-01 to 2015-10-19). Also it shows the number of day
-that will be accrued till end of the year from now, which is 3.61 days*
+<div class="note info">
+  <h5></h5>
+  <p>
+  Note that there are 14.39 leaves are accrued for this year (for the period 2015-01-01 to 2015-10-19). Also it shows the number of day
+  that will be accrued till end of the year from now, which is 3.61 days
+  </p>
+</div>
+
 
 
 ### Adding leave balance from previous year
@@ -91,4 +107,5 @@ Then for annual leave definition under "Admin"=>"Leave Settings"=>"Leave Types" 
 
 If this is set then Jhon Doe will only be entitled for 18 * (8/12) annual leaves for the year given he has joined on 1st of May 2015
 
-** I'll cover other other leave management concepts in icehrm like Leave Groups, Leave Rules in another article.**
+<code>I'll cover other other leave management concepts in icehrm like Leave Groups, Leave Rules in 
+another article </code>
