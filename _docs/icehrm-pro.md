@@ -14,7 +14,7 @@ opensource version. Following are the main features in IceHrmPro
 ![Advanced Employee Module](https://icehrm.s3.amazonaws.com/images/blog-images/advanced-employee-module.png)
 
     - Update all employee information without having to switch employees.
-    - Search employee skills, qualifications and other information easily across whole company.
+    - Search employee skills, qualifications and other information<br/>easily across whole company.
     - Terminate employees while keeping data in system.
     - Re-enable temporarily terminated employees with one click.
     - Employee archive feature to archive data of terminated employees.
