@@ -8,41 +8,14 @@
   - settings
   - ldap
 
-- title: Admin Guide
+- title: Admin/User Guide
   docs:
   - companystructure
   - jobdetails
   - qualifications
   - training
-  - pages
-  - variables
-  - collections
-  - datafiles
-  - assets
-  - migrations
+  - leave
 
-- title: Customization
+- title: Tutorials
   docs:
-  - templates
-  - permalinks
-  - pagination
-  - plugins
-  - extras
-
-- title: Deployment
-  docs:
-  - github-pages
-  - deployment-methods
-  - continuous-integration
-
-- title: Miscellaneous
-  docs:
-  - troubleshooting
-  - sites
-  - resources
-  - upgrading
-
-- title: Meta
-  docs:
-  - contributing
-  - history
+  - leave-setup

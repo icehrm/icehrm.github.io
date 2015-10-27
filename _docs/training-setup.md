@@ -2,7 +2,7 @@
 layout: docs
 title: Training Setup
 prev_section: qualifications
-next_section: companystructure
+next_section: leave-setup
 permalink: /docs/training/
 ---
 
