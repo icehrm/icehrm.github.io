@@ -77,7 +77,7 @@ Now assume we have an employee named 'Jhon Doe'. His leave entitlement (under "L
 <div class="note info">
   <h5></h5>
   <p>
-  There are 14.39 leaves are accrued for this year (for the period 2015-01-01 to 2015-10-19). Also it shows the number of day
+  There are 14.39 leaves accrued for this year (for the period 2015-01-01 to 2015-10-19). Also it shows the number of day
   that will be accrued till end of the year from now, which is 3.61 days
   </p>
 </div>
@@ -106,6 +106,3 @@ Then for annual leave definition under "Admin"=>"Leave Settings"=>"Leave Types" 
 <code>"Proportionate leaves on Joined Date" = "Yes"</code>
 
 If this is set then Jhon Doe will only be entitled for 18 * (8/12) annual leaves for the year given he has joined on 1st of May 2015
-
-<code>I'll cover other other leave management concepts in icehrm like Leave Groups,<br/> Leave Rules in 
-another article </code>

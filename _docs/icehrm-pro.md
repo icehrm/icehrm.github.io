@@ -25,5 +25,12 @@ opensource version. Following are the main features in IceHrmPro
 
 ### Candidate / Recruitment Management
 
+<div class="note info">
+  <h5>Purchase IceHrm Pro</h5>
+  <p>
+  You can purchase IceHrm pro by visiting [IceHrm.com](http://icehrm.com)
+  </p>
+</div>
+
 
 
