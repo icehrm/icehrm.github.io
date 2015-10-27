@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Settings
+title: LDAP Config
 prev_section: settings
 next_section: companystructure
 permalink: /docs/ldap/
@@ -20,9 +20,10 @@ This section describe the process of configuring LDAP with IceHrm
   <p>PHP5 LDAP extension should be installed for LDAP to work. Also make sure all required outbound ports are opened</p>
 </div>
 
-Before using please install php5-ldap module run following command to install php5-ldap
+Before using please install php5-ldap module. R
+Run following command to install php5-ldap
 
-$> sudo apt-get install php5-ldap
+<code>$> sudo apt-get install php5-ldap</code>
 
 For using php ldap on windows please [refer](http://stackoverflow.com/questions/16864306/fatal-error-call-to-undefined-function-ldap-connect)
 
@@ -33,7 +34,7 @@ For using php ldap on windows please [refer](http://stackoverflow.com/questions/
 </div>
 
 
-Use following config to test LDAP connection with following test LDAP server
+Use these config to test LDAP connection with following test LDAP server
 [http://www.forumsys.com/tutorials/integration-how-to/ldap/online-ldap-test-server/](http://www.forumsys.com/tutorials/integration-how-to/ldap/online-ldap-test-server/)
 
 
