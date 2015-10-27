@@ -7,6 +7,7 @@ version: 6.0
 categories: [release]
 ---
 
+
 ### Notifications
 
 With new notifications module employees and managers will receive notifications for various
