@@ -35,7 +35,7 @@ by employees using PTO (this will be explained in another section).
 
 <div class="note warning">
   <h5></h5>
-  <p>Also note that leave period can have different lengths and can be started from any month in the year.</p>
+  <p>Also note that leave period can have different lengths and can be started from any month of the year.</p>
 </div>
 
 
