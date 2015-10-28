@@ -188,7 +188,7 @@ to the supervisor to approve the training session.
 </div>
  
  
-### Completing a Training Session
+### Approving a Training Session
  
 Once an employee mark a training session as completed, the supervisor will receive a notification to approve it.
 
