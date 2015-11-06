@@ -17,8 +17,8 @@ active leave management setup, I'm writing this to walk you through a short tuto
   1. You are moving the leave management system to icehrm, in the middle of the leave period for 2015<br/>
   2. Some of your employees have leaves carried forwarded from 2014, which might not have been used<br/>
   3. Your company have annual leave which can be carried forwarded to next year<br/>
-  4. Company supported casual leave which are accrued 1.5 per each month<br/>
-  5. Some employees have joined in 2015 and their leaves should be proportionate according to joined date<br/>
+  4. There are casual leave which are accrued 1.5 per each month<br/>
+  5. Some employees have joined in 2015 and their leave entitlement should be proportionate according to joined date<br/>
   </p>
 </div>
 

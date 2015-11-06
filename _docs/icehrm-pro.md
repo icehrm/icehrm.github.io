@@ -28,7 +28,7 @@ opensource version. Following are the main features in IceHrmPro
 <div class="note info">
   <h5>Purchase IceHrm Pro</h5>
   <p>
-  You can purchase IceHrm pro by visiting [IceHrm.com](http://icehrm.com)
+  You can purchase IceHrm pro by visiting <a href="http://icehrm.com">IceHrm.com</a>
   </p>
 </div>
 
