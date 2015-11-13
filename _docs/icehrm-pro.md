@@ -21,9 +21,18 @@ opensource version. Following are the main features in IceHrmPro
     
 ### Leave Management
 
+Leave module is only available in IceHrm Pro or Enterprise versions. IceHrm leave module is a complete leave management system for any type of a company
+
+To learn more about leave management in icehrm refer:
+- [Leave Admin Guide](/docs/leave-admin)
+- [Configuring Leave Module](/docs/leave-setup)
+- [Leave Rules](/docs/leave-rules)
+
 ### Audit Trial
 
-Sometimes you need to access audit trail for your HRM system. Audit module recored all the critical action that your employees in a quickly accessible and understandable manor.
+Sometimes you need to access audit trail for your HRM system. Audit module records all the write actions (which alters your HRM system) 
+of your employees in a quickly accessible and understandable manor. This help you to identify potential issues with the way employees
+are using the system.
 
 ### Candidate / Recruitment Management
 
@@ -40,7 +49,7 @@ More about [recruitment module](/docs/recruitment/)
 <div class="note info">
   <h5>Purchase IceHrm Pro</h5>
   <p>
-  You can purchase IceHrm pro by visiting <a href="http://icehrm.com">IceHrm.com</a>
+  Thinking of purchasing IceHrm Pro. You can do it by visiting <a href="http://icehrm.com/modules.php">IceHrm.com</a>
   </p>
 </div>
 

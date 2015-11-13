@@ -2,7 +2,7 @@
 layout: docs
 title: Leave Management System
 prev_section: documents
-next_section: leave-admin
+next_section: leave-rules
 permalink: /docs/leave-admin/
 ---
 IceHrm has once of the best leave management systems among all the HRM software.
@@ -118,7 +118,9 @@ When adding a leave type you need to set following fields
 Work week defines the days that your employees are working. When an employee is applying for a leave,
 work week is taken into consideration. For an example if you company works only from Monday to 
 Friday and if an employee applied for a leave for two continuous weeks including weekends, Saturdays and 
-Sundays will be counted for leave application. In some cases, companies need to keep different workweeks 
+Sundays will NOT be counted for leave application. 
+
+In some cases, companies need to keep different workweeks 
 for different countries. For an example if your branch in UK works a half a day on Saturday then you can 
 add that as shown on following image. All the leave calculations of UK based employees (employee: 
 country field should be set to UK) will be done according to extended workweek defined for UK. 

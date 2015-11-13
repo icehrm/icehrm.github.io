@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Configuring Leave Rules
-prev_section: leave-setup
-next_section: leave-rules
+prev_section: leave-admin
+next_section: home
 permalink: /docs/leave-rules/
 ---
 
