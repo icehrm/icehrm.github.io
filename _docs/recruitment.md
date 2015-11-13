@@ -61,7 +61,7 @@ Jobs can be posted via "Recruitment"=>"Job Positions". Following table will list
 
         A short description about the job position. This will be displayed when listing company jobs.
         The public url for companies open positions is,<br/>
-        http://<icehrm_url>/entry.php?g=admin&n=candidates
+        http://icehrm_url/entry.php?g=admin&n=candidates
 
       </p></td>
     </tr>
