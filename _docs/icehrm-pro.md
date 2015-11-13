@@ -23,7 +23,19 @@ opensource version. Following are the main features in IceHrmPro
 
 ### Audit Trial
 
+Sometimes you need to access audit trail for your HRM system. Audit module recored all the critical action that your employees in a quickly accessible and understandable manor.
+
 ### Candidate / Recruitment Management
+
+Recruitment module can be used to:
+ 
+- Post jobs
+- Let candidates apply for these jobs
+- Schedule interviews
+- Track candidate progress with notes
+- Share job links with linkedIn, facebook, twitter and google+ directly from icehrm
+
+More about [recruitment module](/docs/recruitment/)
 
 <div class="note info">
   <h5>Purchase IceHrm Pro</h5>

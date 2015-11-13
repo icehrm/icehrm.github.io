@@ -2,7 +2,7 @@
 layout: docs
 title: Recruitment Module
 prev_section: training
-next_section: leave-setup
+next_section: candidates
 permalink: /docs/recruitment/
 ---
 
@@ -169,7 +169,7 @@ You should select a display type when posting a job position. This section detai
 
 ##Sharing your job position on social media and using direct links
 
-You can share the created job positions on Google+, Facebook, Twitter and LinkedIn directly from IceHrm using
+You can share created job positions on Google+, Facebook, Twitter and LinkedIn directly from IceHrm using
 social links on job positions module. Also you can get a direct link to the job position which you can send via
 email or any other media by clicking on "Job Link" icon.
 

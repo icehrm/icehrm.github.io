@@ -2,7 +2,7 @@
 layout: docs
 title: Company Structure
 prev_section: ldap
-next_section: jobdetails
+next_section: employee
 permalink: /docs/companystructure/
 ---
 Company structure module allows you to define the structure of you company by 

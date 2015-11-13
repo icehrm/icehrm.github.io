@@ -11,14 +11,20 @@
 - title: Admin/User Guide
   docs:
   - companystructure
+  - employees
   - jobdetails
   - qualifications
   - training
   - recruitment
+  - candidates
+  - projects
+  - documents
+  - leave-admin
 
 - title: Tutorials
   docs:
   - leave-setup
+  - leave-rules
 
 - title: Enterprise
   docs:

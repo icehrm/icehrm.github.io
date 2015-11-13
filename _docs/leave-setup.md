@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Leave Module Setup
-prev_section: training
-next_section: home
+prev_section: leave-admin
+next_section: leave-rules
 permalink: /docs/leave-setup/
 ---
 

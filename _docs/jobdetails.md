@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Job Details Setup
-prev_section: companystructure
+prev_section: employee
 next_section: qualifications
 permalink: /docs/jobdetails/
 ---
