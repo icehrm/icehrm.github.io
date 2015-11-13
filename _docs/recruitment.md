@@ -128,7 +128,8 @@ You should select a display type when posting a job position. This section detai
       <td><p>
         
         Only text will be displayed<br/>
-        e.g: [Text ad](http://apps.gamonoid.com/icehrm-hosted/entry.php?g=admin&n=candidates&ref=JC002)
+        e.g:
+        <a href="http://apps.gamonoid.com/icehrm-hosted/entry.php?g=admin&n=candidates&ref=JC002">Text ad</a>
 
 
       </p></td>
@@ -138,8 +139,8 @@ You should select a display type when posting a job position. This section detai
       <td><p>
         
         Only an image will be displayed. The image for the ad should be provided in <code>Image</code> field when creating job position<br/>
-        e.g: [Image only ad](http://apps.gamonoid.com/icehrm-hosted/entry.php?g=admin&n=candidates&ref=J0003)
-
+        e.g:
+        <a href="http://apps.gamonoid.com/icehrm-hosted/entry.php?g=admin&n=candidates&ref=J0003">Image only ad</a>
 
       </p></td>
     </tr>
