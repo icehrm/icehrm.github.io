@@ -48,7 +48,7 @@ These are optional components which could improve icehrm performance
 
 <div class="note warning">
   <h5>Remove "install" folder</h5>
-  <p>Please rename or delete the install folder (<ice hrm root>/app/install) since it could pose a security threat to your iCE Hrm instance.</p>
+  <p>Please rename or delete the install folder ((ice hrm root)/app/install) since it could pose a security threat to your iCE Hrm instance.</p>
 </div>
 
 
