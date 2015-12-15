@@ -16,10 +16,8 @@ Release note v14.0
  * Improvements to travel management module to change the process of applying for travel requests
  * Employee document expiry notifications
  * Immigration documents has been removed from travel module and users should use documents module instead
- * Allow stopping all email notifications for certain leave types
  * Leave filtering with leave period
  * New report add for getting travel requests
- * Improvements to user interface
  * Bunch of UI improvements including changing menu order and font sizes
  * Ability to stop all notifications for certain leave types
  * Add a setting to use server time for time zone defined on department that a user is attached to create new attendance records
