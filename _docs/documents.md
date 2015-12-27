@@ -28,3 +28,11 @@ expiring documents.
 Administrators and Managers can use "Employee Documents" tab to explore and manage documents uploaded by 
 employees or add new documents to employees.
 
+### Settings
+
+Set <code>Notifications: Send Document Expiry Emails</code> to No if you don't wish to receive document expiry
+notifications.
+
+Also set <code>Notifications: Copy Document Expiry Emails to Manager</code> to Yes if you want to send all document
+expiry notifications to respective managers also
+

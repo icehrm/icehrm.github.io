@@ -17,6 +17,11 @@ Admins can view and edit expenses from all employees.
 
 Employees can add expenses under <code>Finance -> Expenses</code>. 
 
+### Pre-Approving Expenses
+
+If the Setting <code>Expense: Pre-Approve Expenses</code> is set to Yes, all new expenses will be approved
+automatically
+
 ### Reporting
 
 Expense report can be downloaded under <code>Admin -> Reports</code> by specifying a date range.

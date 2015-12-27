@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: LDAP Config
+title: Notification Scheduler
 prev_section: ldap
 next_section: companystructure
 permalink: /docs/scheduler/
