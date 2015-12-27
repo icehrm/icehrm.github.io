@@ -18,7 +18,12 @@
   - recruitment
   - candidates
   - projects
+  - attendance
+  - timesheets
   - documents
+  - expenses
+  - auditlog
+  - charts
   - leave-admin
 
 - title: Tutorials

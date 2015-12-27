@@ -3,7 +3,7 @@ layout: docs
 title: Ice Hrm Pro
 prev_section: leave-setup
 next_section: home
-permalink: /docs/icehrm-pro/
+permalink: /docs/icehrm-enterprise/
 ---
 
 ### Candidate / Recruitment Management
@@ -11,9 +11,9 @@ permalink: /docs/icehrm-pro/
 Recruitment module can be used to:
  
 - Post jobs
-- Let candidates apply for these jobs
+- Let candidates apply for posted jobs
 - Schedule interviews
-- Track candidate progress with notes
+- Track candidate progress
 - Share job links with linkedIn, facebook, twitter and google+ directly from icehrm
 
 More about [recruitment module](/docs/recruitment/)

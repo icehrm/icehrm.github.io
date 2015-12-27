@@ -2,7 +2,7 @@
 layout: docs
 title: LDAP Config
 prev_section: settings
-next_section: companystructure
+next_section: scheduler
 permalink: /docs/ldap/
 ---
 

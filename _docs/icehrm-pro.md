@@ -18,6 +18,8 @@ opensource version. Following are the main features in IceHrmPro
 - Terminate employees while keeping data in system.
 - Re-enable temporarily terminated employees with one click.
 - Employee archive feature to archive data of terminated employees.
+- Change field names (e.g SSN to National ID)
+- Add custom fields
     
 ### Leave Management
 
@@ -33,6 +35,8 @@ To learn more about leave management in icehrm refer:
 Sometimes you need to access audit trail for your HRM system. Audit module records all the write actions (which alters your HRM system) 
 of your employees in a quickly accessible and understandable manor. This help you to identify potential issues with the way employees
 are using the system.
+
+![Audit Log](https://icehrm.s3.amazonaws.com/images/blog-images/audit_log.png)
 
 
 <div class="note info">
