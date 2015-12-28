@@ -8,7 +8,7 @@ permalink: /docs/documents/
 
 ### Document Types
 
-This tab is used to define various documents relevant to your organization. 
+Document Types tab is used to define various documents relevant to your organization. 
 The employees are able to upload documents under these categories.
 
 ### Expire Notifications
