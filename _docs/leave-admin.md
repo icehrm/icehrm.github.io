@@ -192,8 +192,11 @@ the current leave period.
      
    </tbody>
  </table>
+ <div>
+
 
 ###Leave Groups
+
 Leave groups can be used to:
 
 1. Group a set of employees and create leave rules affecting all employees in the group.
