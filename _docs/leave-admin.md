@@ -175,11 +175,12 @@ the current leave period.
      </tr>
      <tr>
        <td><p>Leaves to be Accrued </p></td>
-       <td><p>
+       <td>
+       <p>
+         If the Leave Accrue Enabled is set for the leave type, this will show how many leave days will be added to your leave balance by end of current leave period
          
-         If the "Leave Accrue Enabled" is set for the leave type, this will show how many leave days will be added to your leave balance by end of current leave period
-         
-       </p></td>
+       </p>
+       </td>
      </tr>
      <tr>
        <td><p>Leaves Carried Forwarded</p></td>
@@ -192,7 +193,7 @@ the current leave period.
      
    </tbody>
  </table>
- <div>
+ </div>
 
 
 ###Leave Groups
