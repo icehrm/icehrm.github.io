@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Frequently Asked Questions
+title: FAQ
 prev_section: installation
 next_section: changelog
 permalink: /docs/faq/
@@ -45,9 +45,8 @@ If you want to remove some leave from an employee you can add minus PTO also.
 
 ### I've not been using IceHrm during 2015, But when configuring leave balances for 2016 different employees are having different leave balances carried forwarded from 2015. How to handle this?
 
-You should add these as PTO amounts for leave period 2015 under "Paid Tome Off" tab. You will have to add one record for each employee.
-Also you will need to set leave carried forwarded parameter to Yes under for particular leave type. 
-This is a one time setup, from 2016 you can use automatic leave carry forwarding.
+You should add these as PTO amounts for leave period 2016 under "Paid Tome Off" tab. You will have to add one record for each employee.
+This is a one time setup, from 2017 you can use automatic leave carry forwarding.
 
 
 
