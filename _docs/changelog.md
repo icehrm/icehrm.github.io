@@ -6,10 +6,20 @@ next_section: companystructure
 permalink: /docs/changelog/
 ---
 
-## Change log - Enterprise Version
+## Change log
+
+Release note v14.4
+------------------
+
+### Fixes
+ * Fix for Paid time off not getting bound to leave period issue
+ * Fix amount label name in expense module
+ * Fix for expenses report (payee field is not in report)
+ * Fix issue: users are not redirected to default module after login (IcehrmPro)
+ * Run cron jobs only is the file exists
 
 Release note v14.0
------------------
+------------------
 
 ### Features
  * Expense management module
