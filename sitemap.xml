@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://blog.icehrm.com/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/home/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/news/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/installation/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/faq/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/changelog/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/settings/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/ldap/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/scheduler/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/companystructure/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/employees/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/jobdetails/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/qualifications/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/training/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/recruitment/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/candidates/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/projects/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/attendance/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/timesheets/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/documents/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/expenses/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/auditlog/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/charts/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/leave-admin/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/leave-setup/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/leave-rules/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/docs/icehrm-pro/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/news/2015/12/30/icehrm-commercial-modules-for-opensource/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/news/2015/10/20/icehrm-v13.2-released/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/news/2014/10/07/new-features-in-icehrm-release-v7-0/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/news/2014/08/17/whats-new-for-opensource-version-in-ice-hrm-v6-0/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://blog.icehrm.com/news/releases/</loc>
+  <lastmod>2015-12-30T02:29:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+</urlset>

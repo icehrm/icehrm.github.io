@@ -43,8 +43,7 @@ approval process
 
 <div class="note info">
   <p>
-  You can purchase these modules from
-  [IceHrm Market Place](http://icehrm.com/modules.php)
+  You can purchase these modules from <a href="http://icehrm.com/modules.php" target="_blank">IceHrm Market Place</a>
   </p>
 </div>
     
