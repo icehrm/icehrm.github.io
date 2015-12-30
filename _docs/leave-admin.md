@@ -134,7 +134,7 @@ the enabled leave periods. If an employee applies for a leave which includes a h
 holiday won’t be counted. Just like the workweek, you can have different holidays defined for different 
 countries. In following example 2014-12-18 defined as a holiday only for UK.
 
-[leave management system](https://icehrm.s3.amazonaws.com/images/blog-images/leaves-holidays.png)
+![leave management system](https://icehrm.s3.amazonaws.com/images/blog-images/leaves-holidays.png)
 
 
 ###Employee leaves
@@ -144,6 +144,54 @@ take actions on it (Approve or Reject). Admin should usually use this feature wh
 of the person who applied the leave is not able to do it.
 
 ![hrm management system](https://icehrm.s3.amazonaws.com/images/blog-images/employee-leaves.png)
+
+### Employee Leave Entitlement
+
+![Employee Leave Entitlement](https://icehrm.s3.amazonaws.com/images/blog-images/employee_leave_entitlement.png)
+
+All the employees are allowed to check there leave entitlement. It show a summery of their leave balances for
+the current leave period.
+
+ <div class="mobile-side-scroller">
+ <table>
+   <thead>
+     <tr>
+       <th>Field</th>
+       <th>Description</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td><p>Available Leaves</p></td>
+       <td><p>
+         Number of leave remaining that you can apply during current leave period
+       </p></td>
+     </tr>
+     <tr>
+       <td><p>Pending Leaves</p></td>
+       <td><p>
+        Number of leave you have applied but not approved or rejected
+       </p></td>
+     </tr>
+     <tr>
+       <td><p>Leaves to be Accrued </p></td>
+       <td><p>
+         
+         If the "Leave Accrue Enabled" is set for the leave type, this will show how many leave days will be added to your leave balance by end of current leave period
+         
+       </p></td>
+     </tr>
+     <tr>
+       <td><p>Leaves Carried Forwarded</p></td>
+       <td><p>
+         
+         Leave days carried forward from previous leave periods
+         
+       </p></td>
+     </tr>
+     
+   </tbody>
+ </table>
 
 ###Leave Groups
 Leave groups can be used to:
