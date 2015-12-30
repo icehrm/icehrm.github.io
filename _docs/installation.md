@@ -2,7 +2,7 @@
 layout: docs
 title: Installation
 prev_section: home
-next_section: changelog
+next_section: faq
 permalink: /docs/installation/
 ---
 

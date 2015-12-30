@@ -2,6 +2,8 @@
   docs:
   - home
   - installation
+  - faq
+  - changelog
 
 - title: Configuaration
   docs:

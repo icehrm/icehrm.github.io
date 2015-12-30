@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Installation
-prev_section: installation
+prev_section: faq
 next_section: companystructure
 permalink: /docs/changelog/
 ---
