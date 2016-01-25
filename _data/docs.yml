@@ -23,6 +23,7 @@
   - projects
   - attendance
   - timesheets
+  - diff-attendance-timesheets
   - documents
   - expenses
   - auditlog

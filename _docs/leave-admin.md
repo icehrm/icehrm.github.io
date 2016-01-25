@@ -92,6 +92,14 @@ When adding a leave type you need to set following fields
       </p></td>
     </tr>
     <tr>
+      <td><p>Maximum Carried Forward Amount</p></td>
+      <td><p>
+        
+        Maximum number of leave days which can be carried forwarded from one year to another. Set to 0 for unlimited
+
+      </p></td>
+    </tr>
+    <tr>
       <td><p>Carried Forward Leave Availability Period</p></td>
       <td><p>
         

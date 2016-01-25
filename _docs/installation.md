@@ -16,6 +16,7 @@ Before installing IceHrm please make sure your system supports following require
 you’ll need to make sure your system has before you start.
 
 - [PHP 5.3 or Higher](http://php.net/)
+- Net_SMTP extension for PHP
 - [MySQL v5.5](http://dev.mysql.com/downloads/)
 - [php-mysql extention](http://php.net/manual/en/mysqli.installation.php)
 - [PHP GD library](http://php.net/manual/en/mysqli.installation.php)
@@ -50,6 +51,18 @@ These are optional components which could improve icehrm performance
   <h5>Remove "install" folder</h5>
   <p>Please rename or delete the install folder ((ice hrm root)/app/install) since it could pose a security threat to your iCE Hrm instance.</p>
 </div>
+
+### Problems with Email Setup
+
+If you are facing issues while setting up email you may try following suggestions:
+
+- Check if [Net_SMTP](http://webplay.pro/groupware/webmail/horde/pear-net_smtp-class.html) extension is installed
+    
+- Try using an standalone PHP email sender script to test emails [](https://www.rackspace.com/knowledge_center/article/test-php-smtp-functionality)
+
+- Check whether your out bound posts are allowed by the firewall
+
+- Try using Amazon SES. You only need to configure AWS Keys in settings area and set Email Sender Type to SES.
 
 
 ### Additional installation instructions for Enterprise version

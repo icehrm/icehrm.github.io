@@ -2,7 +2,7 @@
 layout: docs
 title: Time Sheets
 prev_section: attendance
-next_section: documents
+next_section: diff-attendance-timesheets
 permalink: /docs/timesheets/
 ---
 
