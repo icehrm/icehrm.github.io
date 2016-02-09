@@ -8,6 +8,38 @@ permalink: /docs/changelog/
 
 ## Change log
 
+Release note v15.0
+------------------
+
+### Features
+ * Training module added to IceHrm Pro
+ * LDAP module added to IceHrm Pro
+ * Clear HTML5 local storage when logging in and switching users
+ * Adding indirect supervisors to employees
+ * Allow indirect supervisors to approve leave requests
+ * Improve leave status change workflow
+ * Showing a loading message while getting data from server
+ * Adding a new field to show total time of each time sheet
+ * New report added for listing Employee Time Sheets
+ * Company logo uploaded via settings will be used for all email headers
+ 
+### Fixes
+ * Fix issue: default module URL is incorrect for Employees
+ * Fix date parsing issue in time sheets
+ * AWS phar is included only when required
+ 
+ 
+
+Release note v14.6
+------------------
+
+### Features
+ * Adding a parameter for leave types and leave rules for setting maximum number of leave days that can be carried forward from one year to another
+
+### Fixes
+ * When a leave is cancelled, another leave can not be applied on the same day
+ * Fix dashboard attendance count
+
 Release note v14.4
 ------------------
 

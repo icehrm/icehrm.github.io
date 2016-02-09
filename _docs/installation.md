@@ -22,7 +22,6 @@ you’ll need to make sure your system has before you start.
 - [PHP GD library](http://php.net/manual/en/mysqli.installation.php)
         -$> apt-get update
         -$> apt-get install php5-gd
-- [php5-json](http://php.net/manual/en/json.installation.php)
 
 #### Optional Modules
 
