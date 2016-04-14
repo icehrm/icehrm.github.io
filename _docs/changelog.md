@@ -8,6 +8,32 @@ permalink: /docs/changelog/
 
 ## Change log
 
+Release note v16.0
+------------------
+
+### Features
+ * Payroll reports module for IceHrm Enterprise
+ * Improvements to salary module
+ * Employee History Tracking module - Track all important changes to an employee
+ * Initial implementation of icehrm REST Api
+ * Improvements to data filtering
+ * Multiple tabs for settings module
+ * Overtime reports - now its possible to calculate overtime for employees.compatible with US overtime rules
+ * A tab to list documents added under employee view
+ * Logout the user if tried accessing an unauthorized module
+ * Setting for updating module names
+ * Add department filter to employee leave report
+ 
+### Fixes
+ * Fix issue: classes should be loaded even the module is disabled
+ * Checking user permission before adding default module for user
+ * Deleting the only Admin user is not allowed
+ * Fixes for cron issues
+ * Fixes for handling non UTF-8
+ * Fix for non-mandatory select boxes are shown as mandatory
+ * Fix: Indirect supervisor full leave list not showing
+ 
+
 Release note v15.0
 ------------------
 
