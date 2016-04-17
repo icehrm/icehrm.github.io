@@ -1,6 +1,6 @@
 ---
 layout: news_item
-title: "Hosted Service Pre-paid Credit"
+title: "Hosted Service - Prepaid Credit"
 date: "2016-04-17 18:54:00 +0530"
 author: thilinah
 version: 16.1

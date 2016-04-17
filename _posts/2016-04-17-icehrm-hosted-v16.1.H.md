@@ -1,7 +1,7 @@
 ---
 layout: news_item
-title: "Hosted Service Pre-paid Credit"
-date: "2016-04-17 18:54:00 +0530"
+title: "IceHrm v16 with  Payroll Reports"
+date: "2016-04-17 21:48:00 +0530"
 author: thilinah
 version: 16.1
 categories: [release]
