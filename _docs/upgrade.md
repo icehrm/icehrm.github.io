@@ -44,7 +44,7 @@ After purchasing IceHrm Pro depending on your current open source version upgrad
 
 ### Upgrading from IceHrm Open Source Edition to IceHrm v16.0.OS
 
-Download icehrm_v16.0.OS from [](https://github.com/gamonoid/icehrm/releases/latest)
+Download icehrm_v16.0.OS from [https://github.com/gamonoid/icehrm/releases/latest](https://github.com/gamonoid/icehrm/releases/latest)
 
 1. First backup IceHrm Installation folder and database.
 
