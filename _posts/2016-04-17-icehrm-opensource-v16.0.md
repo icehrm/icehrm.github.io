@@ -22,7 +22,7 @@ for icehrm uses to login. For more information please check (http://blog.icehrm.
 
 #### Here is the complete list of changes on IceHrm v16.0.OS 
 
-Features
+##### Features
  * Advanced Employee Management Module is now included in IceHrm Open Source Edition
  * LDAP Module which was only available in IceHrm Enterprise is now included in open source also
  * Initial implementation of icehrm REST Api for reading employee details
@@ -32,7 +32,7 @@ Features
  * Logout the user if tried accessing an unauthorized module
  * Setting for updating module names
  
-Fixes
+##### Fixes
  * Fix issue: classes should be loaded even the module is disabled
  * Deleting the only Admin user is not allowed
  * Fixes for handling non UTF-8
