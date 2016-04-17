@@ -1,7 +1,7 @@
 ---
 layout: news_item
 title: "IceHrm v16.0 for Open Source Edition"
-date: "2016-04-18 02:12:52 +0530"
+date: "2016-04-17 02:12:52 +0530"
 author: thilinah
 version: 16.0
 categories: [release]
