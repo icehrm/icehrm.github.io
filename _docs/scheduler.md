@@ -12,7 +12,7 @@ To trigger the scheduler you need to run following file
 
 <code>(IceHrm Root)/app/cron.php</code>
 
-### Setting up Linux Cron
+#### Setting up Linux Cron
 
 In linux environment a cron should be setup to run every 10 minutes.
 
@@ -28,6 +28,6 @@ or you can use <code>crontab -e</code> commend
 * make sure that (IceHrm Root)/app/cron.php file is executable *
 
 
-### Setting up Windows Scheduler
+#### Setting up Windows Scheduler
 
 For setting up the windows scheduler please check [http://windows.microsoft.com/en-au/windows/schedule-task#1TC=windows-7](http://windows.microsoft.com/en-au/windows/schedule-task#1TC=windows-7)

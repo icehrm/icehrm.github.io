@@ -10,7 +10,7 @@ Getting IceHrm installed only take a few minutes. If it
 ever becomes a problem, please <a href="https://github.com/gamonoid/icehrm/issues/new" target="_blank">file an issue</a>
 describing the issue you encountered and how we might make the process easier.
 
-### Requirements
+#### Requirements
 
 Before installing IceHrm please make sure your system supports following requirements
 you’ll need to make sure your system has before you start.
@@ -23,14 +23,14 @@ you’ll need to make sure your system has before you start.
         -$> apt-get update
         -$> apt-get install php5-gd
 
-#### Optional Modules
+###### Optional Modules
 
 These are optional components which could improve icehrm performance
 
 - [Memcache](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-memcache-on-ubuntu-14-04)
 
 
-### Installation
+#### Installation
 
 - If you are installing the open source version, download the latest release from [GitHub](https://github.com/gamonoid/icehrm/releases/latest)
 
@@ -51,7 +51,7 @@ These are optional components which could improve icehrm performance
   <p>Please rename or delete the install folder ((ice hrm root)/app/install) since it could pose a security threat to your iCE Hrm instance.</p>
 </div>
 
-### Problems with Email Setup
+#### Problems with Email Setup
 
 If you are facing issues while setting up email you may try following suggestions:
 
@@ -64,7 +64,7 @@ If you are facing issues while setting up email you may try following suggestion
 - Try using Amazon SES. You only need to configure AWS Keys in settings area and set Email Sender Type to SES.
 
 
-### Additional installation instructions for Enterprise version
+#### Additional installation instructions for Enterprise version
 
 - After the installation get the License ID from EULA.PDF and update "Instance :ID" under System->Settings
 - Copy provided icehrmkey.key to icehrm root folder

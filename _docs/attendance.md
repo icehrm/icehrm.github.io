@@ -10,14 +10,14 @@ employees enter the time when recording attendance or configure it to use server
 
 Also attendance module can be used to track people who are already punched in.
 
-### Attendance Tracking with User Time
+#### Attendance Tracking with User Time
 
 Under <code>System -> Settings</code> set <code>Attendance: Use Department Time Zone</code> to No. This will let yours select the time when
 punching in and out.
 
 ![Punch in with user time](https://icehrm.s3.amazonaws.com/images/blog-images/attendance_punch_in1.png)
 
-### Attendance Tracking with Server Time
+#### Attendance Tracking with Server Time
 
 Every employee should be attached to a department. These departments are defined under <code>Admin -> Company Structure</code> and
 you should have a time zone for each department defined. When an employee attached to a department records attendance

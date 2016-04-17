@@ -9,7 +9,7 @@ permalink: /docs/icehrm-pro/
 IceHrm Profession version (in short IceHrmPro) is the feature rich commercial alternative for icehrm
 opensource version. Following are the main features in IceHrmPro
 
-### Advanced Employee Module
+#### Advanced Employee Module
 
 ![Advanced Employee Module](https://icehrm.s3.amazonaws.com/images/blog-images/advanced-employee-module.png)
 
@@ -21,7 +21,7 @@ opensource version. Following are the main features in IceHrmPro
 - Change field names (e.g SSN to National ID)
 - Add custom fields
     
-### Leave Management
+#### Leave Management
 
 Leave module is only available in IceHrm Pro or Enterprise versions. IceHrm leave module is a complete leave management system for any type of a company
 
@@ -30,7 +30,7 @@ To learn more about leave management in icehrm refer:
 - [Configuring Leave Module](/docs/leave-setup)
 - [Leave Rules](/docs/leave-rules)
 
-### Audit Trial
+#### Audit Trial
 
 Sometimes you need to access audit trail for your HRM system. Audit module records all the write actions (which alters your HRM system) 
 of your employees in a quickly accessible and understandable manor. This help you to identify potential issues with the way employees

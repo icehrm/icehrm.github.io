@@ -57,7 +57,7 @@ After installation the settings module can be accessed by login in as admin and 
 
 ## Email Settings
 
-### Configuring Email with SMTP
+#### Configuring Email with SMTP
 
 <div class="mobile-side-scroller">
 <table>
@@ -128,7 +128,7 @@ After installation the settings module can be accessed by login in as admin and 
 </table>
 </div>
 
-### Configuring Email with Amazon SES
+#### Configuring Email with Amazon SES
 
 <div class="mobile-side-scroller">
 <table>
@@ -176,7 +176,7 @@ After installation the settings module can be accessed by login in as admin and 
 </table>
 </div>
 
-### Configuring Email with Gmail
+#### Configuring Email with Gmail
 
 <div class="mobile-side-scroller">
 <table>

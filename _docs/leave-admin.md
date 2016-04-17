@@ -153,7 +153,7 @@ of the person who applied the leave is not able to do it.
 
 ![hrm management system](https://icehrm.s3.amazonaws.com/images/blog-images/employee-leaves.png)
 
-### Employee Leave Entitlement
+#### Employee Leave Entitlement
 
 ![Employee Leave Entitlement](https://icehrm.s3.amazonaws.com/images/blog-images/employee_leave_entitlement.png)
 

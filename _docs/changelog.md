@@ -11,7 +11,7 @@ permalink: /docs/changelog/
 Release note v16.0
 ------------------
 
-### Features
+#### Features
  * Payroll reports module for IceHrm Enterprise
  * Improvements to salary module
  * Employee History Tracking module - Track all important changes to an employee
@@ -24,7 +24,7 @@ Release note v16.0
  * Setting for updating module names
  * Add department filter to employee leave report
  
-### Fixes
+#### Fixes
  * Fix issue: classes should be loaded even the module is disabled
  * Checking user permission before adding default module for user
  * Deleting the only Admin user is not allowed
@@ -37,7 +37,7 @@ Release note v16.0
 Release note v15.0
 ------------------
 
-### Features
+#### Features
  * Training module added to IceHrm Pro
  * LDAP module added to IceHrm Pro
  * Clear HTML5 local storage when logging in and switching users
@@ -49,7 +49,7 @@ Release note v15.0
  * New report added for listing Employee Time Sheets
  * Company logo uploaded via settings will be used for all email headers
  
-### Fixes
+#### Fixes
  * Fix issue: default module URL is incorrect for Employees
  * Fix date parsing issue in time sheets
  * AWS phar is included only when required
@@ -59,17 +59,17 @@ Release note v15.0
 Release note v14.6
 ------------------
 
-### Features
+#### Features
  * Adding a parameter for leave types and leave rules for setting maximum number of leave days that can be carried forward from one year to another
 
-### Fixes
+#### Fixes
  * When a leave is cancelled, another leave can not be applied on the same day
  * Fix dashboard attendance count
 
 Release note v14.4
 ------------------
 
-### Fixes
+#### Fixes
  * Fix for Paid time off not getting bound to leave period issue
  * Fix amount label name in expense module
  * Fix for expenses report (payee field is not in report)
@@ -79,7 +79,7 @@ Release note v14.4
 Release note v14.0
 ------------------
 
-### Features
+#### Features
  * Expense management module
  * Improvements to travel management module to change the process of applying for travel requests
  * Employee document expiry notifications
@@ -93,7 +93,7 @@ Release note v14.0
  * Managers allowed to view/add/edit employee documents
  * New reports added for employee expenses and travel
  
-### Fixes
+#### Fixes
  * Fix issue: leave type not included in employee leave report
  * Fix invoice ordering
  * Fix unavailable help links
@@ -106,19 +106,19 @@ Release note v14.0
 Release note v13.4
 -----------------
 
-### Features
+#### Features
  
-### Fixes
+#### Fixes
  * Fix employee leave report leave type field
 
 Release note v13.0
 -----------------
 
-### Features
+#### Features
  * Recruitment module
  * Allow managers to edit attendance of direct report employees
  
-### Fixes
+#### Fixes
  * Employee switching issue fixed 
  * Fix terminated employee labels
  * Fix issue with punch-in
@@ -126,37 +126,37 @@ Release note v13.0
 Release note v12.6
 -----------------
 
-### Features
+#### Features
  * Charts module
  * Code level security improvements
  
-### Fixes
+#### Fixes
  * Employee switching issue fixed 
 
 
 Release note v11.1
 -----------------
 
-### Features
+#### Features
  * Add/Edit or remove employee fields
 
 
 Release note v11.0
 -----------------
 
-### Features
+#### Features
  * Employee data archiving
  * Leave cancellation requests
  * Adding view employee feature
 
-### Fixes
+#### Fixes
  * Improvements to date time pickers 
 
 
 Release note v10.1
 -----------------
 
-### Features
+#### Features
  * Integration with ice-framework (http://githun.com/thilinah/ice-framework)
  * Option for only allow users to add an entry to a timesheet only if they have marked atteandance for the selected period
  * Restricting availability of leave types to employees using leave groups
@@ -165,7 +165,7 @@ Release note v10.1
 Release note v9.1
 -----------------
 
-### Fixes
+#### Fixes
  * Add missing S3FileSystem class
  * Fix issue: passing result of a method call directly into empty method is not supported in php v5.3
 
@@ -173,7 +173,7 @@ Release note v9.1
 Release note v9.0
 -----------------
 
-### Features
+#### Features
  * New user interface
  * Decimal leave counts supported
  
@@ -189,7 +189,7 @@ Update icehrm v8.4 to v9.0
 Release note v8.4
 -----------------
 
-### Fixes
+#### Fixes
  * Fix leave carry forward rounding issues
  * Fix issue: select2 default value not getting set for select2
  * Fix issue: email not sent when admin changing leave status
@@ -197,7 +197,7 @@ Release note v8.4
 Release note v8.3
 -----------------
 
-### Fixes
+#### Fixes
  * Fix user table issue on windows, this will resolve errors such as: (Note that this fix has no effect on unix based installations)
  * Admin not able to view user uploaded documents
  * Admin not able to upload documants for users
@@ -208,13 +208,13 @@ Release note v8.3
 Release note v8.2
 -----------------
 
-### Features
+#### Features
 * Instance verification added
 
 Release note v8.1
 -----------------
 
-### Fixes
+#### Fixes
 * Fixed bug that caused a fatal error in php v5.4
 * aws2.7.11 phar file replaced by a aws2.7.11 extracted files
 * old aws sdk removed
@@ -222,7 +222,7 @@ Release note v8.1
 Release note v8.0
 -----------------
 
-### Features
+#### Features
 * Admin dashbord module
 * If the employee joined in current leave period, his leave entitlement is calculated proportional to joined date
 * Improvements to reporting module
@@ -237,19 +237,19 @@ Release note v8.0
 * Making work_email and private_email fields optional
 
 
-### Fixes
+#### Fixes
 * Upload dialog close button issue fixed
 
 Release note v7.2
 -----------------
 
-### Fixes
+#### Fixes
 * Some critical vulnerabilities are fixed as recommend by http://zeroscience.mk/en/
 
 Release note v7.1
 -----------------
 
-### Features
+#### Features
 * Improved company structure graph
 * Leave notes implementation � Supervisor can add a note when approving or rejecting leaves
 * Filtering support
@@ -257,12 +257,12 @@ Release note v7.1
 * Add/Edit/Delete company structure permissions added for managers
 * Add ability to disable employee information editing
 
-### Fixes
+#### Fixes
 * Make loans editable only by admin
 * Fix: permissions not getting applied to employee documents
 * Fix error adding employee documents when no user assigned to the admin
 
-### Code Quality
+#### Code Quality
 * Moving all module related code and data into module folders
 
 Release note v6.1
@@ -328,7 +328,7 @@ Release note v5.0
 Release note v4.2
 -----------------
 
-### Fixes
+#### Fixes
 * https://bitbucket.org/thilina/icehrm-opensource/issue/23/subordinate-leaves-pagination-not-working
 * https://bitbucket.org/thilina/icehrm-opensource/issue/20/error-occured-while-time-punch
 
@@ -336,7 +336,7 @@ Release note v4.2
 Release note v4.1
 -----------------
 
-### Features
+#### Features
 * Better email format for notifications
 * Convert upload dialog to a bootstrp model
 

@@ -6,7 +6,7 @@ next_section: faq
 permalink: /docs/upgrade/
 ---
 
-### Upgrading from IceHrm Open Source Edition to IceHrm Pro v16.0.PRO
+#### Upgrading from IceHrm Open Source Edition to IceHrm Pro v16.0.PRO
 
 After purchasing IceHrm Pro depending on your current open source version upgrade process will be different.
 
@@ -42,7 +42,7 @@ After purchasing IceHrm Pro depending on your current open source version upgrad
 8. Exteact icehrm_v16.0.PRO.zip and copy all folders into icehrm installation path except "app" folder
 
 
-### Upgrading from IceHrm Open Source Edition to IceHrm v16.0.OS
+#### Upgrading from IceHrm Open Source Edition to IceHrm v16.0.OS
 
 Download icehrm_v16.0.OS from [https://github.com/gamonoid/icehrm/releases/latest](https://github.com/gamonoid/icehrm/releases/latest)
 
@@ -71,7 +71,7 @@ Download icehrm_v16.0.OS from [https://github.com/gamonoid/icehrm/releases/lates
 7. Exteact icehrm_v16.0.OS.zip and copy all folders into icehrm installation path except "app" folder
 
 
-### Upgrading from IceHrm Pro v15.0.PRO to IceHrm Pro v16.0.PRO
+#### Upgrading from IceHrm Pro v15.0.PRO to IceHrm Pro v16.0.PRO
 
 1. First backup IceHrm Installation folder and database.
 
@@ -83,11 +83,11 @@ Download icehrm_v16.0.OS from [https://github.com/gamonoid/icehrm/releases/lates
 
 
 
-### Upgrading from IceHrm Pro v14.0 or below to IceHrm Pro v16.0.PRO
+#### Upgrading from IceHrm Pro v14.0 or below to IceHrm Pro v16.0.PRO
 
 If you have already purchased an older version ofIceHrm Pro, Please contact team@icehrm.com or thilina@gamonoid.com for purchasing IceHrm Pro Upgrade v16.0
 
-### Upgrading IceHrm Enterprise v15.0 to IceHrm Pro v16.0.PRO + Enterprise Features
+#### Upgrading IceHrm Enterprise v15.0 to IceHrm Pro v16.0.PRO + Enterprise Features
 
 Icehrm Enterprise Edition is being replaced with IceHrm Pro v16.0.PRO. The reason is that 
 IceHrm Pro v16.0 has all the features of enterprise edition except the recruitment module.

@@ -6,7 +6,7 @@ next_section: leave-rules
 permalink: /docs/leave-setup/
 ---
 
-### Setting Up Leave Module
+#### Setting Up Leave Module
 
 Since I've have noticed that its not a trivial task to setup the icehrm leave module initially when moving from another 
 active leave management setup, I'm writing this to walk you through a short tutorial.
@@ -24,7 +24,7 @@ active leave management setup, I'm writing this to walk you through a short tuto
 
 
 
-### Setting up leave periods
+#### Setting up leave periods
 
 First task is setting up the leave periods. If you are starting from 2015 you only need to have the 2015 leave period.
 But creating a leave period for 2016 also should not be an issue. Creating a leave period for 2014 will carry forward
@@ -41,7 +41,7 @@ by employees using PTO (this will be explained in another section).
 
 ![Setting up leave periods](https://icehrm.s3.amazonaws.com/images/blog-images/leave-periods.png)
 
-### Setting up leave types
+#### Setting up leave types
 
 
 1. Lets setup the leave type for annual leave which can be carried forwarded to the next year
@@ -67,7 +67,7 @@ this year will be carried forward to the next.
 
 
 
-### Employee leave entitlement
+#### Employee leave entitlement
 
 Now assume we have an employee named 'Jhon Doe'. His leave entitlement (under "Leave" => 
 "Leave Management"), after above leave periods and leave types are added should look like this:
@@ -84,7 +84,7 @@ Now assume we have an employee named 'Jhon Doe'. His leave entitlement (under "L
 
 
 
-### Adding leave balance from previous year
+#### Adding leave balance from previous year
 
 The other problem you will face while adopting icehrm leave management is moving leave balance from previous year in a
 third party leave management system to icehrm. In order to do this you can use PTO. For an example if Jhon Doe has 3 annual
@@ -99,7 +99,7 @@ After adding the leave balance you will notice that Jhon Doe has 17 annual leave
 
 ![Leave entitlement for Jhon Doe](https://icehrm.s3.amazonaws.com/images/blog-images/leave-entitlement2.png)
 
-### Proportioning leaves respect to joined date
+#### Proportioning leaves respect to joined date
 
 Let's assume Jhon Doe joined the company in May 2015 and should not be allowed to take only a pat of leave count defined for 2015.
 Then for annual leave definition under "Admin"=>"Leave Settings"=>"Leave Types" you can edit Annual Leave and make 

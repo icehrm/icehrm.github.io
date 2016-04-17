@@ -6,12 +6,12 @@ next_section: leave-admin
 permalink: /docs/documents/
 ---
 
-### Document Types
+#### Document Types
 
 Document Types tab is used to define various documents relevant to your organization. 
 The employees are able to upload documents under these categories.
 
-### Expire Notifications
+#### Expire Notifications
 
 When defining document types you can define before how many days icehrm should notify the user about the
 expiring documents.
@@ -23,12 +23,12 @@ expiring documents.
   </p>
 </div>
 
-### Employee Documents
+#### Employee Documents
 
 Administrators and Managers can use "Employee Documents" tab to explore and manage documents uploaded by 
 employees or add new documents to employees.
 
-### Settings
+#### Settings
 
 Set <code>Notifications: Send Document Expiry Emails</code> to No if you don't wish to receive document expiry
 notifications.

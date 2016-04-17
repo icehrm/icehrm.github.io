@@ -38,7 +38,7 @@ Use these config to test LDAP connection with following test LDAP server
 [http://www.forumsys.com/tutorials/integration-how-to/ldap/online-ldap-test-server/](http://www.forumsys.com/tutorials/integration-how-to/ldap/online-ldap-test-server/)
 
 
-### Change configs as follows under System->Settings
+#### Change configs as follows under System->Settings
 
 
 <div class="mobile-side-scroller">

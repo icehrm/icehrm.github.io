@@ -6,7 +6,7 @@ next_section: home
 permalink: /docs/icehrm-enterprise/
 ---
 
-### Candidate / Recruitment Management
+#### Candidate / Recruitment Management
 
 Recruitment module can be used to:
  

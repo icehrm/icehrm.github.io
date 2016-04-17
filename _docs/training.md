@@ -19,7 +19,7 @@ In training module we have courses, training sessions and training subscription 
  5. Admins/Managers can approve that the training session is completed by the employee
  
  
-### Adding a new Course
+#### Adding a new Course
 
 <div class="mobile-side-scroller">
 <table>
@@ -80,7 +80,7 @@ In training module we have courses, training sessions and training subscription 
   <p></p>
 </div>
 
-### Adding a new Training Session
+#### Adding a new Training Session
 
 <div class="mobile-side-scroller">
 <table>
@@ -161,7 +161,7 @@ In training module we have courses, training sessions and training subscription 
 </div>
 
 
-### Subscribing to a Training Session
+#### Subscribing to a Training Session
 
 1. An employee can subscribe to a training session via <code>Training => Training</code> module.
 2. Go to "All Training Sessions" tab
@@ -175,7 +175,7 @@ In training module we have courses, training sessions and training subscription 
   <p>Employees can only subscribe to training sessions having Attendance Type set to "Sign Up"</p>
 </div>
 
-### Completing a Training Session
+#### Completing a Training Session
 
 Once an employee participated in a training session he/she can mark the training as completed via 
 <code>Training=>Training=>My Training Sessions</code> tab. Once this is done a notification will be sent
@@ -188,7 +188,7 @@ to the supervisor to approve the training session.
 </div>
  
  
-### Approving a Training Session
+#### Approving a Training Session
  
 Once an employee mark a training session as completed, the supervisor will receive a notification to approve it.
 
