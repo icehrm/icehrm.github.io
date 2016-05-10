@@ -8,6 +8,14 @@ permalink: /docs/changelog/
 
 ## Change log
 
+Release note v16.1
+------------------
+
+#### Fixes
+ * Fix LDAP login issues
+ * Prevent webserver from printing errors on screen
+ * Allowing "." and "-" on username
+
 Release note v16.0
 ------------------
 

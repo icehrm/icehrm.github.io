@@ -6,7 +6,7 @@ next_section: faq
 permalink: /docs/upgrade/
 ---
 
-#### Upgrading from IceHrm Open Source Edition to IceHrm Pro v16.0.PRO
+#### Upgrading from IceHrm Open Source Edition to IceHrm Pro latest version
 
 After purchasing IceHrm Pro depending on your current open source version upgrade process will be different.
 
@@ -39,10 +39,10 @@ After purchasing IceHrm Pro depending on your current open source version upgrad
  
 7. Then delete all folders inside icehrm installation path except "app" folder
 
-8. Exteact icehrm_v16.0.PRO.zip and copy all folders into icehrm installation path except "app" folder
+8. Exteact icehrm_v16.1.PRO.zip and copy all folders into icehrm installation path except "app" folder
 
 
-#### Upgrading from IceHrm Open Source Edition to IceHrm v16.0.OS
+#### Upgrading from IceHrm Open Source Edition to IceHrm latest version
 
 Download icehrm_v16.0.OS from [https://github.com/gamonoid/icehrm/releases/latest](https://github.com/gamonoid/icehrm/releases/latest)
 
@@ -71,7 +71,35 @@ Download icehrm_v16.0.OS from [https://github.com/gamonoid/icehrm/releases/lates
 7. Exteact icehrm_v16.0.OS.zip and copy all folders into icehrm installation path except "app" folder
 
 
-#### Upgrading from IceHrm Pro v15.0.PRO to IceHrm Pro v16.0.PRO
+#### Upgrading from IceHrm Open Source Edition older than v12.X to IceHrm latest version
+
+Download icehrm latest from [https://github.com/gamonoid/icehrm/releases/latest](https://github.com/gamonoid/icehrm/releases/latest)
+
+1. First backup IceHrm Installation folder and database.
+
+2. Download db upgrade scripts from [https://bitbucket.org/thilina/icehrm-opensource/downloads/upgrade_icehrm_opensource_db.zip](https://bitbucket.org/thilina/icehrm-opensource/downloads/upgrade_icehrm_opensource_db.zip)
+
+3. Upgrade your old IceHrm DB to v14.0 using one of the following scripts depending on your version
+  - For v7.x use upgrade_v7.x_to_v14.0.PRO.sql  
+  - For v8.x use upgrade_v8.x_to_v14.0.PRO.sql  
+  - For v9.x use upgrade_v9.x_to_v14.0.PRO.sql  
+  - For v10.x use upgrade_v10.x_to_v14.0.PRO.sql  
+  - For v12.x use upgrade_v12.x_to_v14.0.PRO.sql  
+  
+4. Then upgrade to latest version DB by executing following scripts
+    
+  - upgrade_v14.0.PRO_to_v15.0.PRO.sql
+  - upgrade_v15.0.PRO_to_v16.0.PRO.sql
+  - post_verify_vrsions_older_than_v10.x_to_v16.0.PRO.sql
+  
+5. Then delete all folders inside icehrm installation path except "app" folder
+
+6. Exteact icehrm_v16.0.OS.zip and copy all folders into icehrm installation path except "app" folder
+
+
+
+
+#### Upgrading from IceHrm Pro v15.0.PRO to IceHrm Pro latest version
 
 1. First backup IceHrm Installation folder and database.
 
@@ -83,18 +111,18 @@ Download icehrm_v16.0.OS from [https://github.com/gamonoid/icehrm/releases/lates
 
 
 
-#### Upgrading from IceHrm Pro v14.0 or below to IceHrm Pro v16.0.PRO
+#### Upgrading from IceHrm Pro v14.0 or below to IceHrm Pro latest
 
 If you have already purchased an older version ofIceHrm Pro, Please contact team@icehrm.com or thilina@gamonoid.com for purchasing IceHrm Pro Upgrade v16.0
 
-#### Upgrading IceHrm Enterprise v15.0 to IceHrm Pro v16.0.PRO + Enterprise Features
+#### Upgrading IceHrm Enterprise v15.0 to IceHrm Pro latest + Enterprise Features
 
-Icehrm Enterprise Edition is being replaced with IceHrm Pro v16.0.PRO. The reason is that 
-IceHrm Pro v16.0 has all the features of enterprise edition except the recruitment module.
+Icehrm Enterprise Edition is being replaced with IceHrm Pro v16.1.PRO. The reason is that 
+IceHrm Pro v16.1 has all the features of enterprise edition except the recruitment module.
 
 Since IceHrm pro has no restriction on number of employees, we decided that it is unfair for 
 enterprise users to be limited by such restrictions. So now you can upgrade your enterprise
-edition to icehrm pro v16.0. Please follow instructions below.
+edition to icehrm pro v16.1. Please follow instructions below.
 
 
 1. Download IceHrmPro.zip from upgrade email you have received
@@ -107,7 +135,7 @@ edition to icehrm pro v16.0. Please follow instructions below.
 
 5. Then delete all folders inside icehrm installation path except "app" folder
 
-6. Exteact icehrm_v16.0.PRO.zip and copy all folders into icehrm installation path except "app" folder
+6. Exteact icehrm_v16.1.PRO.zip and copy all folders into icehrm installation path except "app" folder
 
 7. Copy following folders from icehrm_backup/admin/ folder to icehrm/admin folder for recruitment module
     - candidates
