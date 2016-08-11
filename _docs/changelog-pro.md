@@ -1,19 +1,24 @@
 ---
 layout: docs
-title: Change log - Enterprise
-prev_section: faq
-next_section: changelog-pro
-permalink: /docs/changelog/
+title: Change log - IceHrm Pro
+prev_section: changelog
+next_section: settings
+permalink: /docs/changelog-pro/
 ---
 
 ## Change log
 
 Release note v18.0
 ------------------
+
+### Fixes
+ * Fix issue: admin dashboard translations are not working
+
+Release note v18.0
+------------------
 ### Features
  * Translations (beta) for German, French, Polish, Italian, Sinhala, Chinese, Japanese, Hindi and Spanish
  * PDF Reports
- * HR forms module for creating custom HR Forms and sending to employees to be filled
  * Ability to specify department heads
  * Add advanced custom fields to employees via UI
  * Allow indirect admins to approve travel requests
@@ -24,12 +29,9 @@ Release note v18.0
  * Unlimited custom fields for employees
  * PDF report for monitoring time employee spent on projects
  * Report files module - Allow downloading all previously generated reports
- * Ability to add links to third party sites
- * Payslip download
 
 ### Fixes
  * Fix: subordinates are not showing beyond first page issue
- * Remove payroll column templates
 
 
 Release note v17.1
@@ -79,7 +81,7 @@ Release note v16.0
  * Logout the user if tried accessing an unauthorized module
  * Setting for updating module names
  * Add department filter to employee leave report
- 
+
 #### Fixes
  * Fix issue: classes should be loaded even the module is disabled
  * Checking user permission before adding default module for user
@@ -88,7 +90,7 @@ Release note v16.0
  * Fixes for handling non UTF-8
  * Fix for non-mandatory select boxes are shown as mandatory
  * Fix: Indirect supervisor full leave list not showing
- 
+
 
 Release note v15.0
 ------------------
@@ -104,13 +106,13 @@ Release note v15.0
  * Adding a new field to show total time of each time sheet
  * New report added for listing Employee Time Sheets
  * Company logo uploaded via settings will be used for all email headers
- 
+
 #### Fixes
  * Fix issue: default module URL is incorrect for Employees
  * Fix date parsing issue in time sheets
  * AWS phar is included only when required
- 
- 
+
+
 
 Release note v14.6
 ------------------
@@ -148,7 +150,7 @@ Release note v14.0
  * Improvements to admin/manager and user dashboard
  * Managers allowed to view/add/edit employee documents
  * New reports added for employee expenses and travel
- 
+
 #### Fixes
  * Fix issue: leave type not included in employee leave report
  * Fix invoice ordering
@@ -163,7 +165,7 @@ Release note v13.4
 -----------------
 
 #### Features
- 
+
 #### Fixes
  * Fix employee leave report leave type field
 
@@ -173,9 +175,9 @@ Release note v13.0
 #### Features
  * Recruitment module
  * Allow managers to edit attendance of direct report employees
- 
+
 #### Fixes
- * Employee switching issue fixed 
+ * Employee switching issue fixed
  * Fix terminated employee labels
  * Fix issue with punch-in
 
@@ -185,9 +187,9 @@ Release note v12.6
 #### Features
  * Charts module
  * Code level security improvements
- 
+
 #### Fixes
- * Employee switching issue fixed 
+ * Employee switching issue fixed
 
 
 Release note v11.1
@@ -206,7 +208,7 @@ Release note v11.0
  * Adding view employee feature
 
 #### Fixes
- * Improvements to date time pickers 
+ * Improvements to date time pickers
 
 
 Release note v10.1
@@ -232,7 +234,7 @@ Release note v9.0
 #### Features
  * New user interface
  * Decimal leave counts supported
- 
+
 Update icehrm v8.4 to v9.0
 --------------------------
 
@@ -240,8 +242,8 @@ Update icehrm v8.4 to v9.0
  * Run db script "icehrmdb_update_v8.4_to_v9.0.sql" which can be found inside script folder of icehrm_v9.0
  * remove all folders except app folder in icehrm root folder
  * copy all folders except app folder from new installation to icehrm root folder
- 
- 
+
+
 Release note v8.4
 -----------------
 
