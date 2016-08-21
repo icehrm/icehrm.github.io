@@ -16,19 +16,19 @@ including:
 - Holidays
 - Leave rules
 
-###Leave Periods
+### Leave Periods
 A leave period usually a year but can be different according to company HR processes. 
 Leave periods can’t overlap, which means if an employee applied for annual leaves in leave period for 
 “Year 2014”, his leave balance in leave period “Year 2015” won’t get affected. This is same for all types of leaves. 
 Also if the leave period for year 2015 is not defined, employees won’t be able to apply leaves for 2015.
 
-###Leave Types
+### Leave Types
 
 Leave type tab defines types of leaves which can be applied by employees.
 
 ![IceHrm Leave Types](https://icehrm.s3.amazonaws.com/images/blog-images/leave-types.png)
 
-###Adding a new Leave Type
+### Adding a new Leave Type
 
 When adding a leave type you need to set following fields
 
@@ -121,7 +121,7 @@ When adding a leave type you need to set following fields
 </div>
 
 
-###Work Week
+### Work Week
 
 Work week defines the days that your employees are working. When an employee is applying for a leave,
 work week is taken into consideration. For an example if you company works only from Monday to 
@@ -135,7 +135,7 @@ country field should be set to UK) will be done according to extended workweek d
 
 ![leave management system](https://icehrm.s3.amazonaws.com/images/blog-images/leave-workweek.png)
 
-###Holidays
+### Holidays
 
 Holidays defines the list of holidays for all leave periods. It is advised to define all holidays for all 
 the enabled leave periods. If an employee applies for a leave which includes a holiday, the leave for 
@@ -145,7 +145,7 @@ countries. In following example 2014-12-18 defined as a holiday only for UK.
 ![leave management system](https://icehrm.s3.amazonaws.com/images/blog-images/leaves-holidays.png)
 
 
-###Employee leaves
+### Employee leaves
 
 Employee leaves tab lists all the employee leaves. An administrator can view details of leaves and 
 take actions on it (Approve or Reject). Admin should usually use this feature when the Supervisor 
@@ -204,7 +204,7 @@ the current leave period.
  </div>
 
 
-###Leave Groups
+### Leave Groups
 
 Leave groups can be used to:
 
