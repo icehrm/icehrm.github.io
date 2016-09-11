@@ -2,14 +2,56 @@
 layout: docs
 title: Change log - Enterprise
 prev_section: faq
-next_section: changelog-pro
+next_section: settings
 permalink: /docs/changelog/
 ---
 
 ## Change log
 
+Release note v18.5
+------------------
+
+### Features
+ * Payroll Changes
+ * Adding payroll calculations for Ghana
+ * Allow setting IceHrm Usage
+
+Release note v18.4
+------------------
+
+### Features
+ * UI improvements to staff directory
+ * Ability to share company documents with whole company, departments or individual employees
+ * Allow viewing PDF files on browser
+ * Scroll to top when switching tabs for pages in data tables
+ * Data Import module with bulk import support for employee and attendance data
+ * Change the order of subordinate leave requests to show the leave requests needs more attention at the top
+ * Allow downloading files directly from employee sub document tab
+
+### Fixes
+ * Fix issue: filter dialog not getting closed after selection
+
+Release note v18.3
+------------------
+
+### Fixes
+ * Fix recruitment job setup issue
+
+Release note v18.2
+------------------
+
+### Fixes
+ * Fix issue with caching remote source data
+
+Release note v18.1
+------------------
+
+### Fixes
+ * Fix: IceHrm Url issue
+
 Release note v18.0
 ------------------
+
 ### Features
  * Translations (beta) for German, French, Polish, Italian, Sinhala, Chinese, Japanese, Hindi and Spanish
  * PDF Reports

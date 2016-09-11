@@ -2,7 +2,7 @@
 layout: docs
 title: Upgrade Guide
 prev_section: installation
-next_section: upgrade-pro
+next_section: faq
 permalink: /docs/upgrade/
 ---
 
