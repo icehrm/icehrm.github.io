@@ -6,53 +6,6 @@ next_section: faq
 permalink: /docs/upgrade/
 ---
 
-### Upgrading from IceHrm Open Source Edition to IceHrm Pro latest version
-
-After purchasing IceHrm Pro depending on your current open source version upgrade process will be different.
-
-1. First backup IceHrm Installation folder and database.
-
-2. If you are on v13.X.OS execute following scripts on your database in given order. (DB scripts can be found inside icehrm/scripts folder of icehrm_v16.0.PRO.zip)
- - upgrade_v13.3.OS_to_v14.0.OS.sql
- - upgrade_v14.0.OS_to_v15.0.OS.sql
- - upgrade_v15.0.OS_to_v15.2.OS.sql
- - upgrade_v15.2.OS_to_v16.0.OS.sql
- - upgrade_v16.0.OS_to_v16.0.PRO.sql
- - upgrade_v16.x.PRO_v17.0.PRO.sql
- 
-3. If you are on v14.X.OS execute following scripts on your database in given order (DB scripts can be found inside icehrm/scripts folder of icehrm_v16.0.PRO.zip)
- - upgrade_v14.0.OS_to_v15.0.OS.sql
- - upgrade_v15.0.OS_to_v15.2.OS.sql
- - upgrade_v15.2.OS_to_v16.0.OS.sql
- - upgrade_v16.0.OS_to_v16.0.PRO.sql
- - upgrade_v16.x.PRO_v17.0.PRO.sql
- 
-4. If you are on v15.0.OS execute following scripts on your database in given order (DB scripts can be found inside icehrm/scripts folder of icehrm_v16.0.PRO.zip)
- - upgrade_v15.0.OS_to_v15.2.OS.sql
- - upgrade_v15.2.OS_to_v16.0.OS.sql
- - upgrade_v16.0.OS_to_v16.0.PRO.sql
- - upgrade_v16.x.PRO_v17.0.PRO.sql
- 
-5. If you are on v15.2.OS execute following scripts on your database in given order (DB scripts can be found inside icehrm/scripts folder of icehrm_v16.0.PRO.zip)
- - upgrade_v15.2.OS_to_v16.0.OS.sql
- - upgrade_v16.0.OS_to_v16.0.PRO.sql
- - upgrade_v16.x.PRO_v17.0.PRO.sql
-
-6. If you are on v16.0.OS execute following scripts on your database in given order (DB scripts can be found inside icehrm/scripts folder of icehrm_v16.0.PRO.zip)
- - upgrade_v16.0.OS_to_v16.0.PRO.sql
- - upgrade_v16.x.PRO_v17.0.PRO.sql
- 
-7. Then delete all folders inside icehrm installation path except "app" folder
-
-8. Exteact icehrm_v16.1.PRO.zip and copy all folders into icehrm installation path except "app" folder
-
-9. Copy icehrm.key from the app folder in IceHrm pro downloaded zip file to to the 'app' folder of your installation
-
-
-
-
-
-
 ### Upgrading from IceHrm Open Source Edition to IceHrm latest version
 
 Download icehrm_v16.0.OS from [https://github.com/gamonoid/icehrm/releases/latest](https://github.com/gamonoid/icehrm/releases/latest)
