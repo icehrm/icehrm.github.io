@@ -84,6 +84,7 @@ Release note v17.1
 
 Release note v17.0
 ------------------
+
 #### Features
  * Introducing clone button
  * Unlimited custom fields for employees
