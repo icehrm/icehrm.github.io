@@ -36,6 +36,10 @@
   - leave-setup
   - leave-rules
 
+- title: Payroll
+  docs:
+  - payroll-general
+
 - title: Enterprise
   docs:
   - icehrm-pro
