@@ -1,11 +1,11 @@
 ---
 layout: docs
-title: Payroll
+title: Employee Salary
 prev_section: leave-rules
 next_section: payroll-srilanka
-permalink: /docs/payroll-general/
+permalink: /docs/salary/
 ---
-###Payroll Module Usage
+### Payroll Module Usage
 
 IceHrm payroll currently have in-built support for calculating payrolls in Sri Lanka and Ghana.
 But still you can configure it according to your company needs
@@ -17,20 +17,20 @@ But still you can configure it according to your company needs
 - Add salary components based on attendance sheets
 - Allow employees to download payslips in PDF format
 
-###Defining Employee Salary Details
+### Defining Employee Salary Details
 
 In icehrm we have employee salary components (e.g Car Allowance) which are grouped into salary
 component types (e.g Allowances). Then for each employee you can add actual numbers for each of the
 salary component.
 
-####Salary Component Types
+#### Salary Component Types
 
 ![Salary Component Types](https://icehrm.com/blog/wp-content/uploads/2016/09/Salary-Component-Types-icehrm.png)
 
-####Salary Components
+#### Salary Components
 
 ![Salary Components](https://icehrm.com/blog/wp-content/uploads/2016/09/Salary-Components-IceHrm.png)
 
-####Employee Salary
+#### Employee Salary
 
 ![Employee Salary](https://icehrm.com/blog/wp-content/uploads/2016/09/Employee-salary-icehrm.png)

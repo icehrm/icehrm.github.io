@@ -38,7 +38,8 @@
 
 - title: Payroll
   docs:
-  - payroll-general
+  - usage
+  - salary
 
 - title: Enterprise
   docs:
