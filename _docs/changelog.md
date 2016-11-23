@@ -1,8 +1,8 @@
 ---
 layout: docs
-title: Change log - Enterprise
+title: Change log - Cloud
 prev_section: faq
-next_section: settings
+next_section: changelog-pro
 permalink: /docs/changelog/
 ---
 

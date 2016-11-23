@@ -1,8 +1,8 @@
 ---
 layout: docs
-title: Upgrade Guide
+title: Upgrade Opensource
 prev_section: installation
-next_section: faq
+next_section: upgrade-pro
 permalink: /docs/upgrade/
 ---
 

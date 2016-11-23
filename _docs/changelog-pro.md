@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Change log - IceHrm Pro
+title: Change log - Pro
 prev_section: changelog
 next_section: settings
 permalink: /docs/changelog-pro/
