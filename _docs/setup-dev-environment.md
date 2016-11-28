@@ -13,11 +13,14 @@ software required for runing icehrm
 
 ### Preparing development VM
 
-- Clone icehrm from https://github.com/gamonoid/icehrm.git or download the source
-- Install Vagrant [](https://www.vagrantup.com/downloads.html)
-- Install Vagrant host updater plugin [](https://github.com/cogitatio/vagrant-hostsupdater)
+Clone icehrm from https://github.com/gamonoid/icehrm.git or download the source
 
-- Run vagrant up in icehrm root directory (this will download icehrm vagrant image which is  ~1 GB)
+Install Vagrant [](https://www.vagrantup.com/downloads.html)
+
+Install Vagrant host updater plugin [](https://github.com/cogitatio/vagrant-hostsupdater)
+
+
+Run vagrant up in icehrm root directory (this will download icehrm vagrant image which is  ~1 GB)
 <br/>
 ```sh
 ~ $ vagrant up
@@ -35,15 +38,18 @@ software required for runing icehrm
 ~ $ sudo apt-get install ant
 ```
 <br/>
-- Build Icehrm (your icehrm root directory is mapped to /vagrant/ directory in VM)
+
+Build Icehrm (your icehrm root directory is mapped to /vagrant/ directory in VM)
 <br/>
 ```sh
 ~ $ cd /vagrant
 ~ $ ant buildlocal
 ```
 <br/>
-- Navigate to [](http://clients.app.dev/dev) to load icehrm from VM. (user:admin/pass:admin)
-- Runing unit test
+
+Navigate to [](http://clients.app.dev/dev) to load icehrm from VM. (user:admin/pass:admin)
+
+Runing unit test
 <br/>
 ```sh
 ~ $ cd /vagrant
