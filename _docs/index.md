@@ -33,7 +33,7 @@ hazardous. Here’s what to look out for.
 </div>
 
 <div class="note unreleased">
-  <h5>This is a feature only available in enterprise version</h5>
+  <h5>This is a feature only available in pro version</h5>
   <p>Some features are only available in IceHrm managed enterprise cloud</p>
 </div>
 
