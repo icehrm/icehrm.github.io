@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0822c135-9efc-4c45-8d9e-cbd0ef2f0b40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_docs/usage.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/docs.yml" afterPath="$PROJECT_DIR$/_data/docs.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_docs/payroll-setup.md" afterPath="$PROJECT_DIR$/_docs/payroll-setup.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_docs/salary.md" afterPath="$PROJECT_DIR$/_docs/salary.md" />
     </list>
     <ignored path="icehrm.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,12 +99,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usage.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="usage.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_docs/usage.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="300">
-                <caret line="20" column="98" selection-start-line="20" selection-start-column="98" selection-end-line="20" selection-end-column="98" />
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="29" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="29" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -116,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docs.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="docs.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_data/docs.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -163,8 +159,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/_docs/salary.md" />
         <option value="$PROJECT_DIR$/_docs/payroll-setup.md" />
-        <option value="$PROJECT_DIR$/_data/docs.yml" />
         <option value="$PROJECT_DIR$/_docs/usage.md" />
+        <option value="$PROJECT_DIR$/_data/docs.yml" />
       </list>
     </option>
   </component>
@@ -221,20 +217,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="icehrm.github.io" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icehrm.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icehrm.github.io" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_docs" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,12 +306,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480331140559</updated>
-      <workItem from="1480331141826" duration="2101000" />
+      <workItem from="1480331141826" duration="2277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2101000" />
+    <option name="totallyTimeSpent" value="2277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -466,14 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_data/docs.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_docs/salary.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -488,11 +462,19 @@
     <entry file="file://$PROJECT_DIR$/_docs/usage.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="98" selection-start-line="20" selection-start-column="98" selection-end-line="20" selection-end-column="98" />
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="29" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="29" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/docs.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
