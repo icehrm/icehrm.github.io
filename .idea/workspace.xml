@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0822c135-9efc-4c45-8d9e-cbd0ef2f0b40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_docs/setup-dev-environment.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/docs.yml" afterPath="$PROJECT_DIR$/_data/docs.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_docs/usage.md" afterPath="$PROJECT_DIR$/_docs/usage.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_docs/setup-dev-environment.md" afterPath="$PROJECT_DIR$/_docs/setup-dev-environment.md" />
     </list>
     <ignored path="icehrm.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +40,8 @@
         <entry file="file://$PROJECT_DIR$/_docs/setup-dev-environment.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="90">
-                <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <first_editor relative-caret-position="278">
+                <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -263,12 +260,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480331140559</updated>
-      <workItem from="1480331141826" duration="12224000" />
+      <workItem from="1480331141826" duration="12495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12224000" />
+    <option name="totallyTimeSpent" value="12495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -460,8 +457,8 @@
     <entry file="file://$PROJECT_DIR$/_docs/setup-dev-environment.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <first_editor relative-caret-position="278">
+            <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
