@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Employee Salary
+title: Salary and Payroll
 prev_section: leave-rules
 next_section: payroll-srilanka
 permalink: /docs/salary/
