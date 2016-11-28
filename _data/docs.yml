@@ -1,3 +1,7 @@
+- title: Features
+  docs:
+  - feature list
+
 - title: Getting Started
   docs:
   - home
@@ -40,8 +44,8 @@
 
 - title: Payroll
   docs:
-  - usage
   - salary
+  - payroll-setup
 
 - title: Enterprise
   docs:
