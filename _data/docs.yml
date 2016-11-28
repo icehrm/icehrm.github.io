@@ -50,3 +50,7 @@
 - title: Enterprise
   docs:
   - icehrm-pro
+
+- title: Developers
+  docs:
+  - dev-env

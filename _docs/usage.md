@@ -8,7 +8,7 @@ permalink: /docs/icehrm-usage/
 
 ## What can I do using IceHrm
 
-## Employee / Company Management
+### Employee / Company Management
 
 #### What Admins Can Do:
 
@@ -36,7 +36,7 @@ permalink: /docs/icehrm-usage/
 
 
 
-## Attendance / Attendance Sheets / Time Sheets / Clients / Projects
+### Attendance / Attendance Sheets / Time Sheets / Clients / Projects
 
 <div class="note info">
   <h5>Differance in Attendance and Timesheets</h5>
@@ -65,7 +65,7 @@ permalink: /docs/icehrm-usage/
 - Submit time details in time sheets
 
 
-## Leave/Vacation Management
+### Leave/Vacation Management
 
 <div class="note unreleased">
   <h5>Leave Module</h5>
@@ -98,10 +98,10 @@ permalink: /docs/icehrm-usage/
 - View leave calendar
 
 
-## Training Management
+### Training Management
 
 <div class="note unreleased">
-  <h5>Leave Module</h5>
+  <h5>Training Module</h5>
   <p>Only available in IceHrm Pro and Cloud Editions</p>
 </div>
 
