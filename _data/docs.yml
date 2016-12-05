@@ -54,3 +54,4 @@
 - title: Developers
   docs:
   - dev-env
+  - setup-rest-api

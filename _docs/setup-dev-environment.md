@@ -2,7 +2,7 @@
 layout: docs
 title: Setup Development Environment
 prev_section: icehrm-pro
-next_section: payroll-setup
+next_section: setup-rest-api
 permalink: /docs/dev-env/
 ---
 
