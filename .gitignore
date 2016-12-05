@@ -20,3 +20,6 @@
 /.idea/runConfigurations/CLI.xml
 /.idea/codeStyleSettings.xml
 /.idea/remote-mappings.xml
+/.settings
+/.buildpath
+/.project
