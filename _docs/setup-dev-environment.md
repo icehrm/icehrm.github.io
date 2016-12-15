@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Setup Development Environment
+title: Development Environment
 prev_section: icehrm-pro
 next_section: setup-rest-api
 permalink: /docs/dev-env/
