@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Development Environment
+title: Development
 prev_section: icehrm-pro
 next_section: setup-rest-api
 permalink: /docs/dev-env/
@@ -9,7 +9,7 @@ permalink: /docs/dev-env/
 ## Setup IceHrm Development Environment
 
 IceHrm development environment is packaged as a Vagrant box. I includes php7, nginx, phpunit and other
-software required for runing icehrm
+software required for running icehrm
 
 ### Preparing development VM
 
