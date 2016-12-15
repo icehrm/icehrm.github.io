@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Development
-prev_section: icehrm-pro
+prev_section: leave-admin
 next_section: setup-rest-api
 permalink: /docs/dev-env/
 ---
