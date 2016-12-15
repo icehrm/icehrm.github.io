@@ -6,11 +6,7 @@ next_section: setup-rest-api
 permalink: /docs/contribute/
 ---
 
-<div class="note info">
-  <p>
-  We are always encouraging developers to contribute to icehrm with fixes, improvements or by adding new tests.
-  </p>
-</div>
+We are always encouraging developers to contribute to icehrm with fixes, improvements or by adding new tests.
 
 #### Contributing to IceHrm
 
