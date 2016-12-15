@@ -3,7 +3,7 @@ layout: docs
 title: Setup Rest Api
 prev_section: dev-env
 next_section: home
-permalink: /docs/setup-rest-api/
+permalink: /docs/contribute/
 ---
 
 ## Setup IceHrm REST Api
