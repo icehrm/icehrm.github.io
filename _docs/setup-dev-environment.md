@@ -8,7 +8,7 @@ permalink: /docs/dev-env/
 
 ## Setup IceHrm Development Environment
 
-IceHrm development environment is packaged as a Vagrant box. I includes php7, nginx, phpunit and other
+IceHrm development environment is packaged as a Vagrant box. It includes php7, nginx, phpunit and other
 software required for running icehrm
 
 ### Preparing development VM
