@@ -36,7 +36,6 @@
   - auditlog
   - charts
   - leave-admin
-  - setup-rest-api
 
 - title: Tutorials
   docs:
@@ -55,4 +54,5 @@
 - title: Developers
   docs:
   - dev-env
+  - setup-rest-api
   - contribute
