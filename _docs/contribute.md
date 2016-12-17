@@ -10,8 +10,8 @@ We are always encouraging developers to contribute to icehrm with fixes, improve
 
 #### Contributing to IceHrm
 
-1. Create an issue or feature here [](https://github.com/gamonoid/icehrm/issues) for discussion
-2. Fork icehrm repository under your account
+1. Create an issue or feature here [https://github.com/gamonoid/icehrm/issues](https://github.com/gamonoid/icehrm/issues) for discussion
+2. Fork IceHrm repository under your account
 3. Create a pull request comparing icehrm master with a branch on your repo
 4. Submit the pull request
-5. Someone from Icehrm team will review and merge your pull request
+5. Someone from IceHrm team will review and merge your pull request
