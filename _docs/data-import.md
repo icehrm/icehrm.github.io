@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Importing Employee Data Into IceHrm
+title: Importing Employee Data
 prev_section: employees
 next_section: jobdetails
 permalink: /docs/data-import/
