@@ -2,7 +2,7 @@
 layout: docs
 title: Employee Management
 prev_section: companystructure
-next_section: jobdetails
+next_section: data-import
 permalink: /docs/employees/
 ---
 Employees module is used to list, edit, add and search employees in your company. 

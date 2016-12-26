@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Leave Management System
+title: Leave Management
 prev_section: documents
 next_section: leave-rules
 permalink: /docs/leave-admin/
