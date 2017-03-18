@@ -8,11 +8,19 @@ permalink: /docs/changelog/
 
 ## Change log
 
+Release note v19.0
+------------------
+
+### Features
+ * Payroll Module Improvements
+ * Development environment and vagrant machine is available now
+ * Department heads who can manage all employees attached to a company structure
+
 Release note v18.5
 ------------------
 
 ### Features
- * Payroll Changes
+ * Payroll Changes 
  * Adding payroll calculations for Ghana
  * Allow setting IceHrm Usage
 

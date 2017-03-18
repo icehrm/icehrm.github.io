@@ -8,6 +8,29 @@ permalink: /docs/changelog-pro/
 
 ## Change log
 
+Release note v19.4
+------------------
+
+### Features
+ * DB migration support - no need to upgrade your database manually for every release
+ * Adding calender view to timesheet module
+ * Ability to quickly edit timesheets using an editable table
+ * Subordinate timesheets can be filtered by employee
+
+### Fixes
+ * Fix for setting user language
+ * Fixing issues with Employee time entry report
+ * Fix for displaying custom fields under employee profile page
+
+Release note v19.0
+------------------
+
+### Features
+ * DB migration support - no need to upgrade your database manually for every release
+ * Payroll Module Improvements
+ * Development environment and vagrant machine is available now
+ * Department heads who can manage all employees attached to a company structure
+
 Release note v18.0
 ------------------
 
