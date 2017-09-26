@@ -8,6 +8,18 @@ permalink: /docs/changelog-pro/
 
 ## Change log
 
+Release note v20.1
+------------------
+### Features
+ * Compatible with MySQL 5.7 Strict Mode
+ * PSR-2 compatible code
+ * Employee History Module
+ * Staff Directory
+ 
+### Fixes
+  * Fix: password reset not working
+  * Fix: limiting selectable countries via Settings
+
 Release note v19.4
 ------------------
 
