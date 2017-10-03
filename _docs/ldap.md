@@ -10,11 +10,6 @@ permalink: /docs/ldap/
 
 This section describe the process of configuring LDAP with IceHrm
 
-<div class="note unreleased">
-  <h5>LDAP is only available in IceHrm Enterprise</h5>
-  <p></p>
-</div>
-
 <div class="note warning">
   <h5>php5-ldap</h5>
   <p>PHP5 LDAP extension should be installed for LDAP to work. Also make sure all required outbound ports are opened</p>
