@@ -8,6 +8,26 @@ permalink: /docs/changelog/
 
 ## Change log
 
+Release note v21.0.0.H
+----------------------
+### Features
+ * Improvements to leave/PTO module
+ * Ability to carry forward leave balance indefinitely
+ 
+### Fixes
+ * Fix outdated Mail library
+ * Fix issue: JSON strings not supported in GET request
+
+Release note v20.3.0.H
+----------------------
+### Features
+ * Employee and Attendance REST Api Released
+ * Import/Export for Payroll Configurations
+ * Ability to import employee approved time sheet hours to payroll
+ * Ability to import approved expenses into payroll
+ * Swift Mailer based SMTP support (no need to install Net_SMTP anymore)
+ * Add direct Edit button on employee list
+
 Release note v19.0
 ------------------
 

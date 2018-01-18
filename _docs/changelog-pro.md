@@ -8,6 +8,16 @@ permalink: /docs/changelog-pro/
 
 ## Change log
 
+Release note v21.0.0.PRO (Pending)
+----------------------------------
+### Features
+ * Improvements to leave/PTO module
+ * Ability to carry forward leave balance indefinitely
+ 
+### Fixes
+ * Fix outdated Mail library
+ * Fix issue: JSON strings not supported in GET request
+
 Release note v20.3.0.PRO
 ------------------------
 ### Features
