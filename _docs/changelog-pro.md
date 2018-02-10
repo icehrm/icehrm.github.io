@@ -8,8 +8,8 @@ permalink: /docs/changelog-pro/
 
 ## Change log
 
-Release note v21.0.0.PRO (Pending)
-----------------------------------
+Release note v21.0.0.PRO
+------------------------
 ### Features
  * Improvements to leave/PTO module
  * Ability to carry forward leave balance indefinitely
