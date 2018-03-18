@@ -8,6 +8,18 @@ permalink: /docs/changelog-pro/
 
 ## Change log
 
+Release note v21.1.0.PRO
+------------------------
+### Features
+ * Creating leave rules based on years of experience of employees
+ * UI improvements (help button and error messages)
+ * Allow adding placeholders to test fields
+ * Improvements to German Translations
+ 
+### Fixes
+ * Fix leave rule selection issue when leave groups are used
+ * Fixing notification issues
+ 
 Release note v21.0.0.PRO
 ------------------------
 ### Features
