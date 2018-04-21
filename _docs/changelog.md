@@ -8,6 +8,24 @@ permalink: /docs/changelog/
 
 ## Change log
 
+Release note v22.0.0.H
+------------------------
+### Features
+ * Support multiple leave groups ([](https://thilinah.gitbooks.io/icehrm-guide/content/advanced-leave-policy.html))
+ * Allow filtering by all leave statuses
+ * New view for leave time-line
+ * Improvements to leave module documentation
+ * Improvements to module naming  
+ 
+### Fixes
+ * Remove unwanted default leave periods
+ * Fix issue with approved leave cancellation
+ * Fix issue: filter dialog default values are not selected
+ * Fix issue: department head can be an employee outside the department
+ * Fix issue: department head or supervisor (who has manager leave access) can't use switch employee feature
+ * Fix issue: employee name is not visible on report if middle name is empty
+ * Fix issue with viewing files attached to leave requests
+    
 Release note v21.1.0.H
 ------------------------
 ### Features

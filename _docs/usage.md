@@ -52,7 +52,7 @@ permalink: /docs/icehrm-usage/
 - Download attendance reports
 - Download time sheet reports
 - Approve / Reject and time sheet
-- Create monthly summery reports for work done for clients ![Sample Report]() 
+- Create monthly summery reports for work done for clients
 
 #### What Managers Can Do:
 
