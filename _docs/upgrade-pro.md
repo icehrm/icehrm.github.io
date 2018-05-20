@@ -6,7 +6,7 @@ next_section: faq
 permalink: /docs/upgrade-pro/
 ---
 
-### Upgrading from IceHrm Pro for any version after v19.4.PRO
+### Upgrading IceHrm Pro to v23.0.0.PRO from any version 
 
 1. First backup IceHrm Installation folder and database.
 
@@ -14,7 +14,9 @@ permalink: /docs/upgrade-pro/
 
 3. Extract latest icehrm pro zip file and copy all folders into icehrm installation path except "app" folder
 
-4. Replace icehrm/app/icehrm.key with the same file included in new release
+4. Copy icehrm-release/app/icehrm.key into icehrm/app directory
+
+#### 
 
 ### Upgrading from IceHrm Pro v19.0.PRO to IceHrm Pro v19.4.PRO version
 

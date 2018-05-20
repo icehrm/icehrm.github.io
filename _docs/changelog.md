@@ -15,14 +15,20 @@ Release note v23.0.0.H
  * Conversation module - company public discussion board
  * Loading last used module when revisiting application
  * Finnish language support (Beta)
+ * Improvements to German, Italian and Chinese language translations
  * Allow quickly switching languages
- * Upgrading translations
  * Improvements to security for preventing possible LFI attacks
  * Allow manual date inputs
+ * Custom fields for travel requests
+ * Allow importing approved overtime hours into payroll
+ * Add date and time masks
  
 ### Fixes
- * Fix logout cookie issue
+ * Fix logout cookie issue, by clearing remember me cookie when logging out
  * Improve privacy for GDPR
+ * Improvements to file upload field
+ * Fix issue: attendance rest end point not working on php 5.6
+ * Fix, leave request attachment can not be seen
 
 Release note v22.0.0.H
 ------------------------
