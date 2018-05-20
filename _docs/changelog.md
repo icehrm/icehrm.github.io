@@ -8,10 +8,26 @@ permalink: /docs/changelog/
 
 ## Change log
 
+Release note v23.0.0.H
+------------------------
+### Features
+ * Announcement module
+ * Conversation module - company public discussion board
+ * Loading last used module when revisiting application
+ * Finnish language support (Beta)
+ * Allow quickly switching languages
+ * Upgrading translations
+ * Improvements to security for preventing possible LFI attacks
+ * Allow manual date inputs
+ 
+### Fixes
+ * Fix logout cookie issue
+ * Improve privacy for GDPR
+
 Release note v22.0.0.H
 ------------------------
 ### Features
- * Support multiple leave groups ([](https://thilinah.gitbooks.io/icehrm-guide/content/advanced-leave-policy.html))
+ * Support multiple leave groups ([https://thilinah.gitbooks.io/icehrm-guide/content/advanced-leave-policy.html](https://thilinah.gitbooks.io/icehrm-guide/content/advanced-leave-policy.html))
  * Allow filtering by all leave statuses
  * New view for leave time-line
  * Improvements to leave module documentation

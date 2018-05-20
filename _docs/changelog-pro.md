@@ -7,6 +7,23 @@ permalink: /docs/changelog-pro/
 ---
 
 ## Change log
+Release note v23.0.0.PRO
+------------------------
+This release include some security fixes. We recommend upgrading your installation to latest release. 
+
+### Features
+ * Announcement module
+ * Conversation module - company public discussion board
+ * Loading last used module when revisiting application
+ * Finnish language support (Beta)
+ * Allow quickly switching languages
+ * Upgrading translations
+ * Improvements to security for preventing possible LFI attacks
+ * Allow manual date inputs
+ 
+### Fixes
+ * Fix logout cookie issue
+ * Improve privacy for GDPR
 
 Release note v22.0.0.PRO
 ------------------------
