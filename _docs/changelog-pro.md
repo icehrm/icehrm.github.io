@@ -9,9 +9,11 @@ permalink: /docs/changelog-pro/
 ## Change log
 Release note v23.0.0.PRO
 ------------------------
-This release include some security fixes. We recommend upgrading your installation to latest release. 
+This release include some security fixes. We recommend upgrading your installation to latest release.
+Now feature wise IceHrm cloud and pro are same 
 
 ### Features
+ * Recruitment module
  * Announcement module
  * Conversation module - company public discussion board
  * Loading last used module when revisiting application
