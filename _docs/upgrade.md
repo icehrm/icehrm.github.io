@@ -13,7 +13,6 @@ permalink: /docs/upgrade/
 
 3. Extract latest icehrm pro zip file and copy all folders into icehrm installation path except "app" folder
 
-4. Copy icehrm-release/app/icehrm.key into icehrm/app directory
 
 #### Update your IceHrm Config File for v23.0.0.OS
 
