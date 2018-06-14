@@ -7,6 +7,14 @@ permalink: /docs/changelog-pro/
 ---
 
 ## Change log
+Release note v23.0.1.PRO
+------------------------
+This release include some very critical security fixes. We recommend upgrading your installation to latest release.
+
+### Fixes
+ * Fix missing login form CSRF token
+ * Fix risky usage of hashed password in request
+ 
 Release note v23.0.0.PRO
 ------------------------
 This release include some security fixes. We recommend upgrading your installation to latest release.

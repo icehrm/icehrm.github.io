@@ -5,13 +5,23 @@ prev_section: installation
 next_section: upgrade-pro
 permalink: /docs/upgrade/
 ---
+
+### Upgrading IceHrm Pro from v23.0.0.OS or Above
+
+1. First backup IceHrm Installation folder and database.
+
+2. Then delete all folders/files inside icehrm installation path except "app" folder
+
+3. Extract latest icehrm zip file and copy all folders into icehrm installation path except "app" folder
+
+
 ### Upgrading IceHrm Pro to v23.0.0.OS from any version 
 
 1. First backup IceHrm Installation folder and database.
 
-2. Then delete all folders inside icehrm installation path except "app" folder
+2. Then delete all folders/files inside icehrm installation path except "app" folder
 
-3. Extract latest icehrm pro zip file and copy all folders into icehrm installation path except "app" folder
+3. Extract latest icehrm zip file and copy all folders into icehrm installation path except "app" folder
 
 
 #### Update your IceHrm Config File for v23.0.0.OS
