@@ -7,7 +7,38 @@ permalink: /docs/changelog/
 ---
 
 ## Change log
+Release note v24.0.0.H
+------------------------
+This release include some very critical security fixes. We recommend upgrading your installation to latest release.
 
+### Features
+ * Allow passing additional parameters to payroll predefined methods
+ * Pass leave type name in function field to get leave count for a given type
+ * Make document valid until field optional
+ * Add employee name to payroll report
+ * Show supervisor name on employee profile
+ * Add custom fields to employee report
+ * Add filter by status feature to subordinate time sheets
+ * Make document attachment mandatory
+
+### Security Fixes
+ * Fix missing login form CSRF token
+ * Fix risky usage of hashed password in request
+ * Fixing permission issues on module access for each user level
+ * Prevent manager from accessing sensitive user records
+ 
+### Other Fixes
+ * Hide employee salary from managers
+ * Prevent manager from accessing audit, cron and notifications
+ * Prevent managers from deleting employees
+ * Remove manager access from employee history
+ * Fix recruitment module security issues
+ * Fix: Training coordinator is not able to edit training session
+ * Validate overtime start and end times
+ * Fix: Employee "Subordinate expense" status filter is not visible
+ * Do not allow employees or managers to delete expense requests which are not pending
+ * Fix issue: employee can download draft payroll
+ 
 Release note v23.0.0.H
 ------------------------
 ### Features
