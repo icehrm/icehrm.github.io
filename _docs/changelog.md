@@ -7,8 +7,7 @@ permalink: /docs/changelog/
 ---
 
 ## Change log
-Release note v24.0.0.H
-------------------------
+### Release note v24.0.0.H
 
 This release includes some very critical security fixes. We recommend upgrading your installation to latest release.
 

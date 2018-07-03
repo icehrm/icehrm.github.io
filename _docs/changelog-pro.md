@@ -7,8 +7,7 @@ permalink: /docs/changelog-pro/
 ---
 
 ## Change log
-Release note v24.0.0.PRO
-------------------------
+### Release note v24.0.0.PRO
 
 This release includes some very critical security fixes. We recommend upgrading your installation to latest release.
 
