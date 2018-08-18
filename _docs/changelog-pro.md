@@ -7,7 +7,22 @@ permalink: /docs/changelog-pro/
 ---
 
 ## Change log
-### Release note v24.0.0.PRO
+
+Release note v25.0.0.PRO
+--------------------------
+
+### Features
+ * Performance review module
+ * Company asset management module
+ * Improvements to email templates
+ * Support for Serbian, Swedish, Portuguese, Norwegian, Swedish and Dutch languages
+ 
+### Fixes
+ * Allow making non required date fields empty
+ * Fix leave approval issue for languages other than English
+
+Release note v24.0.0.PRO
+----------------------------
 
 This release includes some very critical security fixes. We recommend upgrading your installation to latest release.
 
