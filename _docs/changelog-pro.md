@@ -8,6 +8,16 @@ permalink: /docs/changelog-pro/
 
 ## Change log
 
+Release note v25.1.0.PRO
+--------------------------
+
+### Features
+ * Multiple leave period support
+ * Arabic language support
+ 
+### Fixes
+ * Fix PHP v5.6 compatibility issues
+
 Release note v25.0.0.PRO
 --------------------------
 
@@ -15,7 +25,7 @@ Release note v25.0.0.PRO
  * Performance review module
  * Company asset management module
  * Improvements to email templates
- * Support for Serbian, Swedish, Portuguese, Norwegian, Swedish and Dutch languages
+ * Support for Serbian, Portuguese, Norwegian, Swedish and Dutch languages
  
 ### Fixes
  * Allow making non required date fields empty
