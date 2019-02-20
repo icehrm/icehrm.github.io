@@ -8,6 +8,37 @@ permalink: /docs/changelog/
 
 ## Change log
 
+Release note v26.4.0.H
+------------------------
+
+### Features
+ * Add staff directory module [](https://github.com/gamonoid/icehrm/issues/168)
+ * Update client-side js to ES6 [](https://github.com/gamonoid/icehrm/issues/163)
+ * Compatible with IceHrm Mobile App [](https://github.com/gamonoid/icehrm/issues/169)
+ * Use npm libraries when possible
+ * Add gulp build for frontend assets
+ * Allow generating QR code with rest api key (https://github.com/gamonoid/icehrm/issues/169)
+ * Updated readme for development setup with vagrant
+ * Changes to leave entitlement layout
+ * Show leave breakdown properly on leave entitlement
+ * Display the leave type or rule affecting the leave entitlement
+ * Order all leave listings by latest start date
+ * Exclude PTO and carried forward leave days from accrued leave calculation
+ * New api endpoints for leave and expense
+
+ 
+### Fixes
+ * Add missing employee details report
+ * Fix: Labels of 'Employee Custom Fields' not displayed [](https://github.com/gamonoid/icehrm/issues/146)
+ * Fix: Work week for all counties can not be edited [](https://github.com/gamonoid/icehrm/issues/155)
+ * Fix: Custom fields are not shown under employee profile [](https://github.com/gamonoid/icehrm/issues/159)
+ * Fix: Additional buttons shown below timesheet list [](https://github.com/gamonoid/icehrm/issues/171)
+ * Updates to Italian translations [](https://github.com/gamonoid/icehrm/pull/166) by https://github.com/nightwatch75
+ * Fix issue: incorrect leave carry forward
+ * Fix: Work week for all counties can not be edited
+ * Error sending notification when expense is approved [](https://github.com/gamonoid/icehrm/issues/157)
+ * Fix: When cancelling a leave request no email is sent to the manager (https://github.com/gamonoid/icehrm/issues/158)
+
 Release note v25.1.0.H
 --------------------------
 
