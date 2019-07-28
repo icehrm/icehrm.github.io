@@ -8,6 +8,38 @@ permalink: /docs/changelog/
 
 ## Change log
 
+Release note v26.6.0.H
+------------------------
+### Improved Recruitment
+ * Now you can add rich text when creating Job posts
+ * Ability to select a hiring manager for each job post, who is getting email updates about now candidates and interviews
+ * Improvements to the page job position page such as showing hiring manager details and simplified application form
+ * Send a confirmation email to candidate after receiving job application
+ * Ability to schedule interviews with multiple interviewers
+ * Sending email notifications to interviewers and hiring manager when an interview is scheduled
+ * Fixing issues related to sharing jobs posts on social media
+
+### Leave Module
+ * Ability to create leave rules targeting specific leave periods. (Example use case: configuring different leave carry forward settings for each leave periods)
+ * Fixing calculation issues occurred due to having future leave periods
+ 
+### Improvements to Attendance Tracking
+ * Tracking IP and location of the employee when marking attendance, this is done when updating attendance via mobile
+ * Ability to control location tracking via mobile using server side settings
+ * Compatible with location tracking with latest version of Icehrm Mobile app on AppStore (https://apple.co/2Yrtxoy) and Google Play (http://bit.ly/2OkMmKe)
+
+### Other Features
+ * Some Improvements to UI such as updating Icons and upgrading font-awesome to its latest version
+ * Improvements to translations
+ 
+### Other Fixes
+ * Order projects by name on Timesheet project listing (This is to make it easier to edit timesheets with many projects)
+ * Link home page user profile to employee profile update page
+ * Fix issues related to configuring Api with mobile app
+ 
+### Security Improvements
+ * Upgrade npm missing dependencies
+
 Release note v26.4.0.H
 ------------------------
 
