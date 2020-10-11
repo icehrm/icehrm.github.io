@@ -8,6 +8,101 @@ permalink: /docs/changelog-pro/
 
 ## Change log
 
+## Release note v27.1.0.PRO
+
+### New features
+
+* UI/UX improvements
+* Custom user role permissions
+* Employee edit form updated
+* Employee daily task list
+* Attendance and employee distribution charts on dashboard
+* Improvements to company structure and company assets module
+
+[Read more about the release here](https://medium.com/icehrm/some-new-compelling-changes-to-icehrm-eba62c40ef9f)
+
+### 🐛  Bug fixes
+* Fix leave carry forward issues, when employee leave periods used in combination with leave rules
+
+## Release note v27.0.2.PRO
+
+This fixes some major issues found in v27.0.1.PRO
+
+### 🐛  Bug fixes
+
+* Filtering across whole application was broken and now it's fixed
+* Fixed the issue related to photo not being shown to the admin when photo attendance is enabled
+
+### 🧑🏻‍💻 For developers
+
+* We have added support for vagrant development environment based on Debian 10 / PHP 7.3 \(with Xdebug\)  / Nginx / MySQL
+
+## Release note v27.0.0.PRO
+
+### New features
+
+* UI/UX improvements \(new fonts / better spacing\)
+* Payroll module improvements
+* Security improvements to password policy
+* Adding total leave days column, when displaying employee leave data
+* Adding more leave information to the email sent to managers for approving leave requests
+* Ability to limit leave requests to full-day and half-day
+* Albanian language is now available
+* Ability to deploy using docker
+
+### For developers
+
+* Developer environment based on docker [https://www.youtube.com/watch?v=sz8OV\_ON6S8](https://www.youtube.com/watch?v=sz8OV_ON6S8)
+* [Developer guide](https://icehrm.gitbook.io/icehrm/developer-guide/create-new-module)
+* Fully supports all php versions &gt;= 5.6 upto v7.3 \(php 5.6 support is deprecated and not recommended\)
+
+### Bug fixes
+
+* Fixes to newly found vulnerabilities \([https://github.com/gamonoid/icehrm/issues/213](https://github.com/gamonoid/icehrm/issues/213)\): credits to: [Talos](https://talosintelligence.com/)
+* Fixing leave module, calculations for complex leave rule combinations
+* Fixed the travel request approval for managers
+* Fixed the issue with attendance source IP display
+* Fixing Api issues in PHP 7.3
+
+## Release note v26.9.0.PRO
+
+### New features
+
+* Teams module for creating teams in company
+* Enable custom user roles
+* Introducing fine-grained user role management by adding restricted user roles
+* Introducing new Gender group 'Divers' for employees and candidates \(according to German intersex law\)
+
+### Bug fixes
+
+* Show only active job posts
+* For employee leave period based leave types - fix available leave balance amount when applying for a leave
+* Fix eave calculations using leave rules depends on employee experience
+
+## Release note v26.7.0.PRO
+
+### Leave Management
+
+* Leave periods can be based on employee joined date or confirmation date
+* Now you can see the detailed leave calculation for each leave type in leave entitlement
+
+### Data Import Improvements
+
+* Download file template via data importer \(the file will be automatically generated using fileds in data importer\)
+* Add a common data importer which makes it easy to create custom data importers
+* Custom field data can now be imported
+* Improvemnts to import file validations
+
+### Payroll & Payslip
+
+* Payroll columns can have simple java script based calculations
+* Any employee information \(general fields or custom fields\) can now be shown on payslip
+* Any employee information \(general fields or custom fields\) can be used for payroll calculations
+
+### Other
+
+* Improvements to automated E2E test
+
 Release note v26.6.0.PRO
 ------------------------
 ### Improved Recruitment

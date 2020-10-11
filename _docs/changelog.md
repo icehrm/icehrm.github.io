@@ -6,521 +6,473 @@ next_section: changelog-pro
 permalink: /docs/changelog/
 ---
 
-## Change log
+## Change log Open Source
 
-Release note v26.6.0.H
-------------------------
-### Improved Recruitment
- * Now you can add rich text when creating Job posts
- * Ability to select a hiring manager for each job post, who is getting email updates about now candidates and interviews
- * Improvements to the page job position page such as showing hiring manager details and simplified application form
- * Send a confirmation email to candidate after receiving job application
- * Ability to schedule interviews with multiple interviewers
- * Sending email notifications to interviewers and hiring manager when an interview is scheduled
- * Fixing issues related to sharing jobs posts on social media
+## Release note v27.0.2.OS
 
-### Leave Module
- * Ability to create leave rules targeting specific leave periods. (Example use case: configuring different leave carry forward settings for each leave periods)
- * Fixing calculation issues occurred due to having future leave periods
- 
-### Improvements to Attendance Tracking
- * Tracking IP and location of the employee when marking attendance, this is done when updating attendance via mobile
- * Ability to control location tracking via mobile using server side settings
- * Compatible with location tracking with latest version of Icehrm Mobile app on AppStore (https://apple.co/2Yrtxoy) and Google Play (http://bit.ly/2OkMmKe)
+This fixes some major issues found in v27.0.1.OS
 
-### Other Features
- * Some Improvements to UI such as updating Icons and upgrading font-awesome to its latest version
- * Improvements to translations
- 
-### Other Fixes
- * Order projects by name on Timesheet project listing (This is to make it easier to edit timesheets with many projects)
- * Link home page user profile to employee profile update page
- * Fix issues related to configuring Api with mobile app
- 
+### 🐛  Bug fixes
+
+* Filtering across whole application was broken and now it's fixed
+* Fixed the issue related to photo not being shown to the admin when photo attendance is enabled
+
+### 🧑🏻‍💻 For developers
+
+* We have added support for vagrant development environment based on Debian 10 / PHP 7.3 \(with Xdebug\)  / Nginx / MySQL
+
+## Release note v27.0.0.OS
+
+### New features
+
+* Employee document management is now available for open-source version
+* UI/UX improvements \(new fonts / better spacing\)
+* Payroll module improvements
+* Security improvements to password policy
+* Albanian language is now available
+* Ability to deploy using docker
+
+### For developers
+
+* Developer environment based on docker [https://www.youtube.com/watch?v=sz8OV\_ON6S8](https://www.youtube.com/watch?v=sz8OV_ON6S8)
+* [Developer guide](https://icehrm.gitbook.io/icehrm/developer-guide/create-new-module)
+* Fully supports all php versions &gt;= 5.6 upto v7.3 \(php 5.6 support is deprecated and not recommended\)
+
+### Bug fixes
+
+* Fixes to newly found vulnerabilities \([https://github.com/gamonoid/icehrm/issues/213](https://github.com/gamonoid/icehrm/issues/213)\): credits to: [Talos](https://talosintelligence.com/)
+* Fixed the travel request approval for managers
+* Fixed the issue with attendance source IP display
+* Fixing Api issues in PHP 7.3
+
+## Release note v26.6.0.OS
+
+### Features
+
+* Some Improvements to UI such as updating Icons and upgrading font-awesome to its latest version
+* Tracking IP and location of the employee when marking attendance, this is done when updating attendance via mobile
+* Ability to control location tracking via mobile using server side settings
+* Improvements to translations
+
+### Mobile App
+
+* This release is coupled with mobile application release on AppStore \([https://apple.co/2Yrtxoy](https://apple.co/2Yrtxoy)\) and Google Play \([http://bit.ly/2OkMmKe](http://bit.ly/2OkMmKe)\)
+
+### Fixes
+
+* Order projects by name on Timesheet project listing \(This is to make it easier to edit timesheets with many projects\)
+* Link home page user profile to employee profile update page
+* Fix issues related to configuring Api with mobile app
+
 ### Security Improvements
- * Upgrade npm missing dependencies
 
-Release note v26.4.0.H
-------------------------
+* Upgrade npm missing dependencies
+
+## Release note v26.2.0.OS
 
 ### Features
- * Add staff directory module [](https://github.com/gamonoid/icehrm/issues/168)
- * Update client-side js to ES6 [](https://github.com/gamonoid/icehrm/issues/163)
- * Compatible with IceHrm Mobile App [](https://github.com/gamonoid/icehrm/issues/169)
- * Use npm libraries when possible
- * Add gulp build for frontend assets
- * Allow generating QR code with rest api key (https://github.com/gamonoid/icehrm/issues/169)
- * Updated readme for development setup with vagrant
- * Changes to leave entitlement layout
- * Show leave breakdown properly on leave entitlement
- * Display the leave type or rule affecting the leave entitlement
- * Order all leave listings by latest start date
- * Exclude PTO and carried forward leave days from accrued leave calculation
- * New api endpoints for leave and expense
 
- 
+* Add staff directory module
+* Update client-side js to ES6
+* Compatible with IceHrm Mobile App
+* Use npm libraries when possible
+* Add gulp build for frontend assets
+* Allow generating QR code with rest api key \([https://github.com/gamonoid/icehrm/issues/169](https://github.com/gamonoid/icehrm/issues/169)\)
+* Updated readme for development setup with vagrant
+
 ### Fixes
- * Add missing employee details report
- * Fix: Labels of 'Employee Custom Fields' not displayed [](https://github.com/gamonoid/icehrm/issues/146)
- * Fix: Work week for all counties can not be edited [](https://github.com/gamonoid/icehrm/issues/155)
- * Fix: Custom fields are not shown under employee profile [](https://github.com/gamonoid/icehrm/issues/159)
- * Fix: Additional buttons shown below timesheet list [](https://github.com/gamonoid/icehrm/issues/171)
- * Updates to Italian translations [](https://github.com/gamonoid/icehrm/pull/166) by https://github.com/nightwatch75
- * Fix issue: incorrect leave carry forward
- * Fix: Work week for all counties can not be edited
- * Error sending notification when expense is approved [](https://github.com/gamonoid/icehrm/issues/157)
- * Fix: When cancelling a leave request no email is sent to the manager (https://github.com/gamonoid/icehrm/issues/158)
 
-Release note v25.1.0.H
---------------------------
+* Add missing employee details report
+* Fix: Labels of 'Employee Custom Fields' not displayed \([https://github.com/gamonoid/icehrm/issues/146](https://github.com/gamonoid/icehrm/issues/146)\)
+* Fix: Work week for all counties can not be edited
+* Fix: Custom fields are not shown under employee profile \([https://github.com/gamonoid/icehrm/issues/159](https://github.com/gamonoid/icehrm/issues/159)\)
+* Fix: Additional buttons shown below timesheet list \([https://github.com/gamonoid/icehrm/issues/171](https://github.com/gamonoid/icehrm/issues/171)\)
+* Updates to Italian translations \([https://github.com/gamonoid/icehrm/pull/166](https://github.com/gamonoid/icehrm/pull/166)\) by [https://github.com/nightwatch75](https://github.com/nightwatch75)
+
+## Release note v24.0.0.OS
 
 ### Features
- * Multiple leave period support
- * Arabic language support
- 
-### Fixes
- * Fix PHP v5.6 compatibility issues
 
-Release note v25.0.0.H
---------------------------
-
-### Features
- * Performance review module
- * Company asset management module
- * Improvements to email templates
- * Support for Serbian, Portuguese, Norwegian, Swedish and Dutch languages
- 
-### Fixes
- * Allow making non required date fields empty
- * Fix leave approval issue for languages other than English
-
-Release note v24.0.0.H
---------------------------
-
-This release includes some very critical security fixes. We recommend upgrading your installation to latest release.
-
-### Features
- * Allow passing additional parameters to payroll predefined methods
- * Pass leave type name in function field to get leave count for a given type
- * Make document valid until field optional
- * Add employee name to payroll report
- * Show supervisor name on employee profile
- * Add custom fields to employee report
- * Add filter by status feature to subordinate time sheets
- * Make document attachment mandatory
+* Allow passing additional parameters to payroll predefined methods
+* Pass leave type name in function field to get leave count for a given type
+* Add employee name to payroll report
+* Show supervisor name on employee profile
+* Add custom fields to employee report
+* Add filter by status feature to subordinate time sheets
 
 ### Security Fixes
- * Fix missing login form CSRF token
- * Fix risky usage of hashed password in request
- * Fixing permission issues on module access for each user level
- * Prevent manager from accessing sensitive user records
- 
+
+* Fix missing login form CSRF token
+* Fix risky usage of hashed password in request
+* Fixing permission issues on module access for each user level
+* Prevent manager from accessing sensitive user records
+
 ### Other Fixes
- * Hide employee salary from managers
- * Prevent manager from accessing audit, cron and notifications
- * Prevent managers from deleting employees
- * Remove manager access from employee history
- * Fix recruitment module security issues
- * Fix: Training coordinator is not able to edit training session
- * Validate overtime start and end times
- * Fix: Employee "Subordinate expense" status filter is not visible
- * Do not allow employees or managers to delete expense requests which are not pending
- * Fix issue: employee can download draft payroll
- 
-Release note v23.0.0.H
-------------------------
-### Features
- * Announcement module
- * Conversation module - company public discussion board
- * Loading last used module when revisiting application
- * Finnish language support (Beta)
- * Improvements to German, Italian and Chinese language translations
- * Allow quickly switching languages
- * Improvements to security for preventing possible LFI attacks
- * Allow manual date inputs
- * Custom fields for travel requests
- * Allow importing approved overtime hours into payroll
- * Add date and time masks
- 
-### Fixes
- * Fix logout cookie issue, by clearing remember me cookie when logging out
- * Improve privacy for GDPR
- * Improvements to file upload field
- * Fix issue: attendance rest end point not working on php 5.6
- * Fix, leave request attachment can not be seen
 
-Release note v22.0.0.H
-------------------------
-### Features
- * Support multiple leave groups ([https://thilinah.gitbooks.io/icehrm-guide/content/advanced-leave-policy.html](https://thilinah.gitbooks.io/icehrm-guide/content/advanced-leave-policy.html))
- * Allow filtering by all leave statuses
- * New view for leave time-line
- * Improvements to leave module documentation
- * Improvements to module naming  
- 
-### Fixes
- * Remove unwanted default leave periods
- * Fix issue with approved leave cancellation
- * Fix issue: filter dialog default values are not selected
- * Fix issue: department head can be an employee outside the department
- * Fix issue: department head or supervisor (who has manager leave access) can't use switch employee feature
- * Fix issue: employee name is not visible on report if middle name is empty
- * Fix issue with viewing files attached to leave requests
-    
-Release note v21.1.0.H
-------------------------
-### Features
- * Creating leave rules based on years of experience of employees
- * UI improvements (help button and error messages)
- * Allow adding placeholders to test fields
- * Improvements to German Translations
- 
-### Fixes
- * Fix leave rule selection issue when leave groups are used
- * Fixing notification issues
+* Hide employee salary from managers
+* Prevent manager from accessing audit, cron and notifications
+* Prevent managers from deleting employees
+* Validate overtime start and end times
+* Fix issue: employee can download draft payroll
 
-Release note v21.0.0.H
-----------------------
-### Features
- * Improvements to leave/PTO module
- * Ability to carry forward leave balance indefinitely
- 
-### Fixes
- * Fix outdated Mail library
- * Fix issue: JSON strings not supported in GET request
+## Release note v23.0.1.OS
 
-Release note v20.3.0.H
-----------------------
-### Features
- * Employee and Attendance REST Api Released
- * Import/Export for Payroll Configurations
- * Ability to import employee approved time sheet hours to payroll
- * Ability to import approved expenses into payroll
- * Swift Mailer based SMTP support (no need to install Net_SMTP anymore)
- * Add direct Edit button on employee list
-
-Release note v19.0
-------------------
-
-### Features
- * Payroll Module Improvements
- * Development environment and vagrant machine is available now
- * Department heads who can manage all employees attached to a company structure
-
-Release note v18.5
-------------------
-
-### Features
- * Payroll Changes 
- * Adding payroll calculations for Ghana
- * Allow setting IceHrm Usage
-
-Release note v18.4
-------------------
-
-### Features
- * UI improvements to staff directory
- * Ability to share company documents with whole company, departments or individual employees
- * Allow viewing PDF files on browser
- * Scroll to top when switching tabs for pages in data tables
- * Data Import module with bulk import support for employee and attendance data
- * Change the order of subordinate leave requests to show the leave requests needs more attention at the top
- * Allow downloading files directly from employee sub document tab
+This release include some very critical security fixes. We recommend upgrading your installation to latest release.
 
 ### Fixes
- * Fix issue: filter dialog not getting closed after selection
 
-Release note v18.3
-------------------
+* Fix missing login form CSRF token
+* Fix risky usage of hashed password in request
 
-### Fixes
- * Fix recruitment job setup issue
-
-Release note v18.2
-------------------
-
-### Fixes
- * Fix issue with caching remote source data
-
-Release note v18.1
-------------------
-
-### Fixes
- * Fix: IceHrm Url issue
-
-Release note v18.0
-------------------
+## Release note v23.0.0.OS
 
 ### Features
- * Translations (beta) for German, French, Polish, Italian, Sinhala, Chinese, Japanese, Hindi and Spanish
- * PDF Reports
- * HR forms module for creating custom HR Forms and sending to employees to be filled
- * Ability to specify department heads
- * Add advanced custom fields to employees via UI
- * Allow indirect admins to approve travel requests
- * Adding more languages to Language meta data table
- * Improvements to report module
- * Ability to select sections for placing custom fields on employee detail view screen
- * Introducing clone button
- * Unlimited custom fields for employees
- * PDF report for monitoring time employee spent on projects
- * Report files module - Allow downloading all previously generated reports
- * Ability to add links to third party sites
- * Payslip download
+
+* Loading last used module when revisiting application
+* Finnish language support \(Beta\)
+* Improvements to German, Italian and Chinese language translations
+* Allow quickly switching languages
+* Improvements to security for preventing possible LFI attacks
+* Allow manual date inputs
+* Custom fields for travel requests
+* Allow importing approved overtime hours into payroll
+* Add date and time masks
 
 ### Fixes
- * Fix: subordinates are not showing beyond first page issue
- * Remove payroll column templates
 
+* Fix logout cookie issue, by clearing remember me cookie when logging out
+* Improve privacy for GDPR
+* Improvements to file upload field
+* Fix issue: attendance rest end point not working on php 5.6
 
-Release note v17.1
-------------------
+## Release note v22.0.0.OS
 
-#### Fixes
- * Fix: recruitment module candidates not loading issue
- * Fix report files issue
+### Features
 
+* Improvements to module naming  
 
-Release note v17.0
-------------------
+### Fixes
 
-#### Features
- * Introducing clone button
- * Unlimited custom fields for employees
- * PDF reports using wkhtmltopdf
- * Introducing pdf report for monitoring time employee spent on projects
- * Report files module - Allow downloading all previously generated reports
+* Fix issue: filter dialog default values are not selected
+* Fix issue: department head can be an employee outside the department
+* Fix issue: department head or supervisor \(who has manager leave access\) can't use switch employee feature
+* Fix issue: employee name is not visible on report if middle name is empty
 
-#### Fixes
- * Attendance sheets module - allow setting overtime calculation period
- * Remove pwd button from user roles tab
- * Allow viewing paid invoices (Enterprise only)
- * Adding missing jQuery UI
+## Release note v21.1.0.OS
 
+### Features
 
-Release note v16.1
-------------------
+* UI improvements \(help button and error messages\)
+* Allow adding placeholders to text fields
+* Improvements to German Translations
 
-#### Fixes
- * Fix LDAP login issues
- * Prevent webserver from printing errors on screen
- * Allowing "." and "-" on username
+### Fixes
 
-Release note v16.0
-------------------
+* Fixing notification issues
 
-#### Features
- * Payroll reports module for IceHrm Enterprise
- * Improvements to salary module
- * Employee History Tracking module - Track all important changes to an employee
- * Initial implementation of icehrm REST Api
- * Improvements to data filtering
- * Multiple tabs for settings module
- * Overtime reports - now its possible to calculate overtime for employees.compatible with US overtime rules
- * A tab to list documents added under employee view
- * Logout the user if tried accessing an unauthorized module
- * Setting for updating module names
- * Add department filter to employee leave report
- 
-#### Fixes
- * Fix issue: classes should be loaded even the module is disabled
- * Checking user permission before adding default module for user
- * Deleting the only Admin user is not allowed
- * Fixes for cron issues
- * Fixes for handling non UTF-8
- * Fix for non-mandatory select boxes are shown as mandatory
- * Fix: Indirect supervisor full leave list not showing
- 
+## Release note v21.0.0.OS
 
-Release note v15.0
-------------------
+### Features
 
-#### Features
- * Training module added to IceHrm Pro
- * LDAP module added to IceHrm Pro
- * Clear HTML5 local storage when logging in and switching users
- * Adding indirect supervisors to employees
- * Allow indirect supervisors to approve leave requests
- * Improve leave status change workflow
- * Showing a loading message while getting data from server
- * Adding a new field to show total time of each time sheet
- * New report added for listing Employee Time Sheets
- * Company logo uploaded via settings will be used for all email headers
- 
-#### Fixes
- * Fix issue: default module URL is incorrect for Employees
- * Fix date parsing issue in time sheets
- * AWS phar is included only when required
- 
- 
+* Fully compatible with php 7.1
+* Add Net\_SMTP via composer \(no pear installation needed\)
 
-Release note v14.6
-------------------
+### Fixes
 
-#### Features
- * Adding a parameter for leave types and leave rules for setting maximum number of leave days that can be carried forward from one year to another
+* Fixes for web servers not supporting JSON in GET request
 
-#### Fixes
- * When a leave is cancelled, another leave can not be applied on the same day
- * Fix dashboard attendance count
+## Release note v21.0.0.OS
 
-Release note v14.4
-------------------
+### Features
 
-#### Fixes
- * Fix for Paid time off not getting bound to leave period issue
- * Fix amount label name in expense module
- * Fix for expenses report (payee field is not in report)
- * Fix issue: users are not redirected to default module after login (IcehrmPro)
- * Run cron jobs only is the file exists
+* Fully compatible with php 7.1
+* Add Net\_SMTP via composer \(no pear installation needed\)
 
-Release note v14.0
-------------------
+### Fixes
 
-#### Features
- * Expense management module
- * Improvements to travel management module to change the process of applying for travel requests
- * Employee document expiry notifications
- * Immigration documents has been removed from travel module and users should use documents module instead
- * Leave filtering with leave period
- * New report add for getting travel requests
- * Bunch of UI improvements including changing menu order and font sizes
- * Ability to stop all notifications for certain leave types
- * Add a setting to use server time for time zone defined on department that a user is attached to create new attendance records
- * Improvements to admin/manager and user dashboard
- * Managers allowed to view/add/edit employee documents
- * New reports added for employee expenses and travel
- 
-#### Fixes
- * Fix issue: leave type not included in employee leave report
- * Fix invoice ordering
- * Fix unavailable help links
- * Remove manager access from recruitment setup
- * Remove Add New button from employees module for managers
- * Remove Add New button from archived and terminated employees tabs
- * Fix - training module view session info from my training sessions tab not working
+* Fixes for web servers not supporting JSON in GET request
 
+## Release note v20.3.0.PRO
 
-Release note v13.4
------------------
+### Features
 
-#### Features
- 
-#### Fixes
- * Fix employee leave report leave type field
+* Employee and Attendance REST Api Released
+* Import/Export for Payroll Configurations
+* Ability to import employee approved time sheet hours to payroll
+* Swift Mailer based SMTP support \(no need to install Net\_SMTP anymore\)
+* Add direct Edit button on employee list
 
-Release note v13.0
------------------
+### Fixes
 
-#### Features
- * Recruitment module
- * Allow managers to edit attendance of direct report employees
- 
-#### Fixes
- * Employee switching issue fixed 
- * Fix terminated employee labels
- * Fix issue with punch-in
+* Fix DB connection issues due to special characters in password
+* Fixes for custom field saving issues in mysql v5.7.x
 
-Release note v12.6
------------------
+## Release note v20.2
 
-#### Features
- * Charts module
- * Code level security improvements
- 
-#### Fixes
- * Employee switching issue fixed 
+### Fixes
 
+* Fix for resetting modules
 
-Release note v11.1
------------------
+## Release note v20.1
 
-#### Features
- * Add/Edit or remove employee fields
+### Features
 
+* Compatible with MySQL 5.7 Strict Mode
+* PSR-2 compatible code
+* Employee History Module
+* Staff Directory
 
-Release note v11.0
------------------
+### Fixes
 
-#### Features
- * Employee data archiving
- * Leave cancellation requests
- * Adding view employee feature
+* Fix: password reset not working
+* Fix: limiting selectable countries via Settings
+* Fix for resetting modules
 
-#### Fixes
- * Improvements to date time pickers 
+## Release note v20.0
 
+### Features
 
-Release note v10.1
------------------
+* Payroll Module
+* Compatible with MySQL 5.7 Strict Mode
+* Namespaced Classes
+* LDAP Module
 
-#### Features
- * Integration with ice-framework (http://githun.com/thilinah/ice-framework)
- * Option for only allow users to add an entry to a timesheet only if they have marked atteandance for the selected period
- * Restricting availability of leave types to employees using leave groups
- * Admins and add notes to employees
+### Fixes
 
-Release note v9.1
------------------
+* Fix: limiting selectable countries via Settings
 
-#### Fixes
- * Add missing S3FileSystem class
- * Fix issue: passing result of a method call directly into empty method is not supported in php v5.3
+## Release note v19.0
 
+### Features
 
-Release note v9.0
------------------
+* Development environment
+* Overtime module
+* Department heads who can manage all employees attached to a company structure
 
-#### Features
- * New user interface
- * Decimal leave counts supported
- 
-Update icehrm v8.4 to v9.0
---------------------------
+## Release note v18.0
 
- * Make a backup of your icehrm db
- * Run db script "icehrmdb_update_v8.4_to_v9.0.sql" which can be found inside script folder of icehrm_v9.0
- * remove all folders except app folder in icehrm root folder
- * copy all folders except app folder from new installation to icehrm root folder
- 
- 
-Release note v8.4
------------------
+### Features
 
-#### Fixes
- * Fix leave carry forward rounding issues
- * Fix issue: select2 default value not getting set for select2
- * Fix issue: email not sent when admin changing leave status
+* Translations \(beta\) for German, French, Polish, Italian, Sinhala, Chinese, Japanese, Hindi and Spanish
+* PDF Reports
+* Ability to specify department heads
+* Add advanced custom fields to employees via UI
+* Allow indirect admins to approve travel requests
+* Adding more languages to Language meta data table
+* Improvements to report module
+* Ability to select sections for placing custom fields on employee detail view screen
+* Introducing clone button
+* Unlimited custom fields for employees
+* PDF report for monitoring time employee spent on projects
+* Report files module - Allow downloading all previously generated reports
 
-Release note v8.3
------------------
+### Fixes
 
-#### Fixes
- * Fix user table issue on windows, this will resolve errors such as: (Note that this fix has no effect on unix based installations)
- * Admin not able to view user uploaded documents
- * Admin not able to upload documants for users
- * Admin can not view employee attendance records
- * Employee projects can not be added
+* Fix: subordinates are not showing beyond first page issue.
 
+## Release note v16.1
 
-Release note v8.2
------------------
+### Fixes
 
-#### Features
+* Fix LDAP user login issue
+* Allow creating users with username having dot and dash
+
+## Release note v16.0
+
+### Features
+
+* Advanced Employee Management Module is now included in IceHrm Open Source Edition
+* LDAP Module which was only available in IceHrm Enterprise is now included in open source also
+* Initial implementation of icehrm REST Api for reading employee details
+* Improvements to data filtering
+* Multiple tabs for settings module
+* Overtime reports - now its possible to calculate overtime for employees.compatible with US overtime rules
+* Logout the user if tried accessing an unauthorized module
+* Setting for updating module names
+
+### Fixes
+
+* Fix issue: classes should be loaded even the module is disabled
+* Deleting the only Admin user is not allowed
+* Fixes for handling non UTF-8
+* Fix for non-mandatory select boxes are shown as mandatory
+
+## Release note v15.2
+
+### Features
+
+* Overtime Reports
+* Overtime calculation for california
+
+### Fixes
+
+* Fix issue: uncaught error when placeholder value is empty
+* Log email sending success status
+* Fix broken longer company name issue
+* Make the application accessible when client on an intranet with no internet connection
+* Fix issue: when a module is disabled other modules depend on it stops working
+
+## Release note v15.0
+
+### Features
+
+* Clear HTML5 local storage when logging in and switching users
+* Showing a loading message while getting data from server
+* Adding a new field to show total time of each time sheet
+* New report added for listing Employee Time Sheets
+* Company logo uploaded via settings will be used for all email headers
+
+### Fixes
+
+* Fix issue: default module URL is incorrect for Employees
+* Fix date parsing issue in time sheets
+* AWS phar is included only when required
+
+## Release note v14.1
+
+### Features
+
+* Add Quick access menu
+
+### Fixes
+
+* Fix issue: salary module not loading
+* Add travel report
+
+## Release note v14.0
+
+### Features
+
+* IceHrm is now fully compatible with PHP 7
+* Improvements to travel management module to change the process of applying for travel requests
+* New report add for getting travel requests
+* Improvements to user interface
+* Bunch of UI improvements including changing menu order and font sizes
+* Add a setting to use server time for time zone defined on department that a user is attached to create new attendance records
+* Improvements to admin/manager and user dashboard
+* Managers allowed to view/add/edit employee documents
+* New reports added for employee expenses and travel
+
+### Fixes
+
+* Fix unavailable help links
+
+## Release note v13.4
+
+### Features
+
+### Fixes
+
+* Fix employee leave report leave type field
+
+## Release note v13.0
+
+### Features
+
+* Recruitment module
+* Allow managers to edit attendance of direct report employees
+
+### Fixes
+
+* Employee switching issue fixed 
+* Fix terminated employee labels
+* Fix issue with punch-in
+
+## Release note v12.6
+
+### Features
+
+* Charts module
+* Code level security improvements
+
+### Fixes
+
+* Employee switching issue fixed 
+
+## Release note v11.1
+
+### Features
+
+* Add/Edit or remove employee fields
+
+## Release note v11.0
+
+### Features
+
+* Employee data archiving
+* Leave cancellation requests
+* Adding view employee feature
+
+### Fixes
+
+* Improvements to date time pickers 
+
+## Release note v10.1
+
+### Features
+
+* Integration with ice-framework \([http://githun.com/thilinah/ice-framework](http://githun.com/thilinah/ice-framework)\)
+* Option for only allow users to add an entry to a timesheet only if they have marked atteandance for the selected period
+* Restricting availability of leave types to employees using leave groups
+* Admins and add notes to employees
+
+## Release note v9.1
+
+### Fixes
+
+* Add missing S3FileSystem class
+* Fix issue: passing result of a method call directly into empty method is not supported in php v5.3
+
+## Release note v9.0
+
+### Features
+
+* New user interface
+* Decimal leave counts supported
+
+## Update icehrm v8.4 to v9.0
+
+* Make a backup of your icehrm db
+* Run db script "icehrmdb\_update\_v8.4\_to\_v9.0.sql" which can be found inside script folder of icehrm\_v9.0
+* remove all folders except app folder in icehrm root folder
+* copy all folders except app folder from new installation to icehrm root folder
+
+## Release note v8.4
+
+### Fixes
+
+* Fix leave carry forward rounding issues
+* Fix issue: select2 default value not getting set for select2
+* Fix issue: email not sent when admin changing leave status
+
+## Release note v8.3
+
+### Fixes
+
+* Fix user table issue on windows, this will resolve errors such as: \(Note that this fix has no effect on unix based installations\)
+* Admin not able to view user uploaded documents
+* Admin not able to upload documants for users
+* Admin can not view employee attendance records
+* Employee projects can not be added
+
+## Release note v8.2
+
+### Features
+
 * Instance verification added
 
-Release note v8.1
------------------
+## Release note v8.1
 
-#### Fixes
+### Fixes
+
 * Fixed bug that caused a fatal error in php v5.4
 * aws2.7.11 phar file replaced by a aws2.7.11 extracted files
 * old aws sdk removed
 
-Release note v8.0
------------------
+## Release note v8.0
 
-#### Features
+### Features
+
 * Admin dashbord module
 * If the employee joined in current leave period, his leave entitlement is calculated proportional to joined date
 * Improvements to reporting module
@@ -532,22 +484,22 @@ Release note v8.0
 * Upgrade aws sdk to v2.7.11
 * Allow employees to change password
 * Use only the email address defined under user for sending mails
-* Making work_email and private_email fields optional
+* Making work\_email and private\_email fields optional
 
+### Fixes
 
-#### Fixes
 * Upload dialog close button issue fixed
 
-Release note v7.2
------------------
+## Release note v7.2
 
-#### Fixes
-* Some critical vulnerabilities are fixed as recommend by http://zeroscience.mk/en/
+### Fixes
 
-Release note v7.1
------------------
+* Some critical vulnerabilities are fixed as recommend by [http://zeroscience.mk/en/](http://zeroscience.mk/en/)
 
-#### Features
+## Release note v7.1
+
+### Features
+
 * Improved company structure graph
 * Leave notes implementation � Supervisor can add a note when approving or rejecting leaves
 * Filtering support
@@ -555,21 +507,21 @@ Release note v7.1
 * Add/Edit/Delete company structure permissions added for managers
 * Add ability to disable employee information editing
 
-#### Fixes
+### Fixes
+
 * Make loans editable only by admin
 * Fix: permissions not getting applied to employee documents
 * Fix error adding employee documents when no user assigned to the admin
 
-#### Code Quality
+### Code Quality
+
 * Moving all module related code and data into module folders
 
-Release note v6.1
------------------
+## Release note v6.1
 
 Leave carry forwared related isue fixed
 
-Release note v6.0
------------------
+## Release note v6.0
 
 * Features
 * Notifications for leaves and timesheets
@@ -583,21 +535,18 @@ Release note v6.0
 * Admin can make all projects available to employees or just the set of prjects assigned to them using Setting "Projects: Make All Projects Available to Employees"
 * Employee document, date added field can not be changed by the employee anymore
 * About dialog added for admins
-
 * Fixes
-* Fix default employee delete issue (when the default employee is deleted the admin user attached to it also get deleted)
+* Fix default employee delete issue \(when the default employee is deleted the admin user attached to it also get deleted\)
 * Fix user duplicate email issue
 * Fix manager can not logout from switched employee
 * Remove admin guide from non admin users
 
-Release note v5.3
------------------
+## Release note v5.3
 
 * Fixes
 * Fix missing employee name in employee details report
 
-Release note v5.2
------------------
+## Release note v5.2
 
 * Fixes
 * Remove unwanted error logs
@@ -606,38 +555,33 @@ Release note v5.2
 * Remove add new button from subordinates module
 * Adding administrators' guide
 
-Release note v5.1
------------------
+## Release note v5.1
 
 * Fixes
 * Fixing for non updating null fields
-* https://bitbucket.org/thilina/icehrm-opensource/commits/df57308b53484a2e43ef5c72967ed1cd0dc756cc
+* [https://bitbucket.org/thilina/icehrm-opensource/commits/df57308b53484a2e43ef5c72967ed1cd0dc756cc](https://bitbucket.org/thilina/icehrm-opensource/commits/df57308b53484a2e43ef5c72967ed1cd0dc756cc)
 
-Release note v5.0
------------------
+## Release note v5.0
 
 * Features
 * New user permission implementation
 * Adding new user level - Manager
-
 * Fixes
 * Fixing remote table loading issue
 
-Release note v4.2
------------------
+## Release note v4.2
 
-#### Fixes
-* https://bitbucket.org/thilina/icehrm-opensource/issue/23/subordinate-leaves-pagination-not-working
-* https://bitbucket.org/thilina/icehrm-opensource/issue/20/error-occured-while-time-punch
+### Fixes
 
+* [https://bitbucket.org/thilina/icehrm-opensource/issue/23/subordinate-leaves-pagination-not-working](https://bitbucket.org/thilina/icehrm-opensource/issue/23/subordinate-leaves-pagination-not-working)
+* [https://bitbucket.org/thilina/icehrm-opensource/issue/20/error-occured-while-time-punch](https://bitbucket.org/thilina/icehrm-opensource/issue/20/error-occured-while-time-punch)
 
-Release note v4.1
------------------
+## Release note v4.1
 
-#### Features
+### Features
+
 * Better email format for notifications
 * Convert upload dialog to a bootstrp model
-
 * Fixes
 * Fix error sending emails with amazon SES
 * Fix errors related to XAMPP and WAMPP servers
