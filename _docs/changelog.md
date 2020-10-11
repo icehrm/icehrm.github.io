@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Change log - Cloud
+title: Change log - Open Source
 prev_section: faq
 next_section: changelog-pro
 permalink: /docs/changelog/
