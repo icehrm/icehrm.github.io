@@ -7,10 +7,19 @@ permalink: /docs/auditlog/
 ---
 
 #### Audit Logging
-The ICE Hrm Audit log module will enable administrators to track each and every action of your employees. 
-This will help admins to find out possible root causes in cases such as misusing the system by employees, 
-issues occur due to user errors. Also it will help administrators possibly  track  the location of the employee
-(using recorded IP address ) to see whether they have logged into the system from inside the office or outside 
-the office.
+The IceHrm Audit Log records all the activities performed by different users in the system. An audit log can help you monitor activities and even identify any potential security breaches and prevent unfavorable events. To access the audit log, go to Admin -> Audit log.
 
-![Audit Log](https://icehrm.s3.amazonaws.com/images/blog-images/audit_log.png)
+In the audit log, you will be able to see:
+1. The time an activity was performed
+2. User
+3. Employee name and id
+4. Type of activity
+
+![Audit Log](https://icehrm.com/explore/wp-content/uploads/2022/09/Untitled-design-69.png)
+
+##### How to find who deleted an employee using the audit log? 
+
+Go to <code> admin -> audit log </code>and search for the keyword ‘delete’. Once you have all the records with the type ‘delete’. Click on the view button to see which employee was deleted from the employee list.
+
+![Audit Log](https://icehrm.com/explore/wp-content/uploads/2022/09/Untitled-900-%C3%97-300px-18.png)
+
