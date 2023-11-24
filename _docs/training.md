@@ -167,7 +167,7 @@ In training module we have courses, training sessions and training subscription 
 2. Go to "All Training Sessions" tab
 3. Click on subscribe button
 
-![Subscribing to a Training Session] (https://icehrm.s3.amazonaws.com/images/blog-images/employee_training_sessions.png)
+![Subscribing to a Training Session](https://icehrm.com/explore/wp-content/uploads/2022/09/Untitled-900-%C3%97-300px-6.png)
 
 
 <div class="note warning">
@@ -192,7 +192,7 @@ to the supervisor to approve the training session.
  
 Once an employee mark a training session as completed, the supervisor will receive a notification to approve it.
 
-![Approve training session](https://icehrm.s3.amazonaws.com/images/blog-images/approve_training_session.png)
+![Approve training session](https://icehrm.com/explore/wp-content/uploads/2022/09/Untitled-design-47-768x427.png)
 
 If all the things are in order, the supervisor can approve the training session via <code>Training=>Training=>Training Sessions of Direct Reports</code> tab
 
