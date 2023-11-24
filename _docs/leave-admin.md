@@ -24,15 +24,31 @@ Also if the leave period for year 2015 is not defined, employees won’t be able
 
 ### Leave Types
 
-Leave type tab defines types of leaves which can be applied by employees.
+The leave type tab defines the types of leaves that can be applied by employees.
 
-![IceHrm Leave Types](https://icehrm.s3.amazonaws.com/images/blog-images/leave-types.png)
+Some of the basic leave types are:
+1. Annual Leaves
+2. Casual Leaves
+3. Medical Leaves
+4. Paternity Leaves
+
+![IceHrm Leave Types](https://icehrm.com/explore/wp-content/uploads/2022/08/Untitled-design-7.png)
 
 ### Adding a new Leave Type
 
 When adding a leave type you need to set following fields
 
-![Adding a new leave type icehrm](https://icehrm.s3.amazonaws.com/images/blog-images/adding-new-leave-type.png)
+Basic:
+
+![Adding a new leave type icehrm](https://icehrm.com/explore/wp-content/uploads/2022/08/Untitled-design-6.png)
+
+Carry Forward:
+
+![Adding a new leave type icehrm](https://icehrm.com/explore/wp-content/uploads/2022/08/Untitled-design-8.png)
+
+Advanced:
+
+![Adding a new leave type icehrm](https://icehrm.com/explore/wp-content/uploads/2022/08/Untitled-design-9.png)
 
 <div class="mobile-side-scroller">
 <table>
@@ -133,16 +149,13 @@ for different countries. For an example if your branch in UK works a half a day 
 add that as shown on following image. All the leave calculations of UK based employees (employee: 
 country field should be set to UK) will be done according to extended workweek defined for UK. 
 
-![leave management system](https://icehrm.s3.amazonaws.com/images/blog-images/leave-workweek.png)
+![leave management system](https://icehrm.com/explore/wp-content/uploads/2022/09/Untitled-design-10.png)
 
 ### Holidays
 
-Holidays defines the list of holidays for all leave periods. It is advised to define all holidays for all 
-the enabled leave periods. If an employee applies for a leave which includes a holiday, the leave for 
-holiday won’t be counted. Just like the workweek, you can have different holidays defined for different 
-countries. In following example 2014-12-18 defined as a holiday only for UK.
+Holidays define the list of holidays for all leave periods. It is advised to define all holidays for all the enabled leave periods. If an employee applies for a leave that includes a holiday, the leave for holiday won’t be counted. Just like the workweek, you can have different holidays defined for different countries. In the following example, 2022-12-18 is defined as a holiday only for the UK.
 
-![leave management system](https://icehrm.s3.amazonaws.com/images/blog-images/leaves-holidays.png)
+![leave management system](https://icehrm.com/explore/wp-content/uploads/2022/09/Untitled-900-%C3%97-300px.png)
 
 
 ### Employee leaves
@@ -151,11 +164,11 @@ Employee leaves tab lists all the employee leaves. An administrator can view det
 take actions on it (Approve or Reject). Admin should usually use this feature when the Supervisor 
 of the person who applied the leave is not able to do it.
 
-![hrm management system](https://icehrm.s3.amazonaws.com/images/blog-images/employee-leaves.png)
+![hrm management system](https://icehrm.com/explore/wp-content/uploads/2022/09/Untitled-900-%C3%97-300px-1.png)
 
 #### Employee Leave Entitlement
 
-![Employee Leave Entitlement](https://icehrm.s3.amazonaws.com/images/blog-images/employee_leave_entitlement.png)
+![Employee Leave Entitlement](https://icehrm.com/explore/wp-content/uploads/2022/09/Untitled-design-15.png)
 
 All the employees are allowed to check there leave entitlement. It show a summery of their leave balances for
 the current leave period.
@@ -208,16 +221,13 @@ the current leave period.
 
 Leave groups can be used to:
 
-1. Group a set of employees and create leave rules affecting all employees in the group.
-
-2. Selectively allow some leave types only to a group of employees (for an example you can assign Maternity 
-leaves only to female employees)
-
+Group a set of employees and create leave rules affecting all employees in the group.
+Selectively allow some leave types only to a group of employees (for example you can assign Maternity leaves only to female employees).
 In order to do this:
 
-- First create the leave group under “Leave Settings”->”Leave Groups”->”Edit Leave Groups”.
+● First, create the leave group under <b>Manage -> Leave -> Leave Groups -> Edit Leave Groups</b>.
 
-![leave management system](https://icehrm.s3.amazonaws.com/images/blog-images/leave_group_employees.png)
+![leave management system](https://icehrm.com/explore/wp-content/uploads/2022/09/Untitled-design-16.png)
 
 - Add employees to leave group
 
