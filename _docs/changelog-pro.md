@@ -8,6 +8,8 @@ permalink: /docs/changelog-pro/
 
 ## Change log
 
+Click [here](https://icehrm.com/explore/release-notes/) for the latest release notes.
+
 ## Release note v28.1.0.PRO
 
 ### 🧲 New features
