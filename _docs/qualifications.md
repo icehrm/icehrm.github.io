@@ -5,8 +5,7 @@ prev_section: jobdetails
 next_section: training
 permalink: /docs/qualifications/
 ---
-Skills, Educational Details, Certifications and Languages you define under qualifications setup module will be used by
-employees or admins to attach these qualifications to their profiles.
+Go to<b> Admin -> Qualifications Setup</b> to define skills, Educational Details, Certifications, and Languages that can be used by employees or admins to attach qualifications to their profiles.
  
 <div class="note info">
   <h5>When these information will be used</h5>
