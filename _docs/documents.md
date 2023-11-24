@@ -16,17 +16,17 @@ The employees are able to upload documents under these categories.
 When defining document types you can define before how many days icehrm should notify the user about the
 expiring documents.
 
-<div class="note info">
-  <p>
-  The notification cron should be setup for this feature to function properly. Please check 
-  [scheduler](/docs/scheduler)
-  </p>
-</div>
+A sample expiry email is shown below:
+
+![Expiry Email](https://icehrm.com/explore/wp-content/uploads/2023/02/Screenshot-from-2023-02-24-15-16-03.png)
+
+
+The notification cron should be setup for this feature to function properly. Please check [here](https://icehrm.com/docs/post-installation).
+
 
 #### Employee Documents
 
-Administrators and Managers can use "Employee Documents" tab to explore and manage documents uploaded by 
-employees or add new documents to employees.
+Administrators and Managers can use "Employee Documents" tab to explore and manage documents uploaded by employees or add new documents to employees.
 
 #### Settings
 
