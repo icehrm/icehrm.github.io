@@ -8,8 +8,7 @@ permalink: /docs/expenses/
 
 #### Configuring Expenses Module
 
-Expense categories and payment methods can be configured under <code>Employees -> Expense Administration</code>.
-Also Managers can view and approve or reject subordinate expenses under the same module.
+Expense categories and payment methods can be configured under <code>Manage -> Expenses</code>.
 
 Admins can view and edit expenses from all employees.
 
