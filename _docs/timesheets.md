@@ -18,7 +18,7 @@ projects. These projects are created under Admin -> Projects/Client Setup module
 #### Allow employees add time for only project assigned to them
 
 By default all employees are allowed to add time entries for all the projects defined. But you can assign projects to employees under "Employee Projects"
-tab of the "Projects/Client Setup" module and change the setting "Projects: Make All Projects Available to Employees"
+tab of the "Projects" module and change the setting "Projects: Make All Projects Available to Employees"
 to "No" in order to let employees add time entries for projects assigned to them.
 
 #### Prevent employees from adding time sheet entries during days they have not marked Attendance
