@@ -6,11 +6,6 @@ next_section: candidates
 permalink: /docs/recruitment/
 ---
 
-<div class="note info">
-  <h5>Recruitment is only available in IceHrm Enterprise and Hosted Versions</h5>
-  <p></p>
-</div>
-
 Recruitment module can be used to:
  
 - Post jobs
@@ -21,14 +16,11 @@ Recruitment module can be used to:
 
 ##Recruitment Setup
 
-Recruitment setup menu is available under "Recruitment"=>"Recruitment Setup". Here you can add/edit Employment Types,
-Experience levels, Job Functions, Education Levels and Benefits. All these information will be used when posting a job.
-
-![Recruitment Setup](https://icehrm.s3.amazonaws.com/images/blog-images/recruitment-setup.png)
+Using recruitment setup you can add/edit Employment Types, Experience levels, Job Functions, Education Levels, and Benefits. All this information will be used when posting a job.
 
 ##Posting a Job
 
-Jobs can be posted via "Recruitment"=>"Job Positions". Following table will list out main fields used to create job postings
+Under the recruitment module, go to the Job Positions and click on Add New. Below are the main fields used to create a job posting. The following table will list out main fields used to create job postings.
 
 <div class="mobile-side-scroller">
 <table>
@@ -110,7 +102,7 @@ Jobs can be posted via "Recruitment"=>"Job Positions". Following table will list
 </div>
 
 
-###Job Position - Display Type
+<!-- ###Job Position - Display Type
 
 You should select a display type when posting a job position. This section details the for display types supported y icehrm
 
@@ -164,16 +156,14 @@ You should select a display type when posting a job position. This section detai
     </tr>
   </tbody>
 </table>
-</div>
+</div> -->
 
 
 ##Sharing your job position on social media and using direct links
 
-You can share created job positions on Google+, Facebook, Twitter and LinkedIn directly from IceHrm using
-social links on job positions module. Also you can get a direct link to the job position which you can send via
-email or any other media by clicking on "Job Link" icon.
+You can get a direct link to the job position which you can send via email or any other media by clicking on the “Job Link” icon.
 
-![Recruitment Job Position Sharing](https://icehrm.s3.amazonaws.com/images/blog-images/recruitment-share.png)
+![Recruitment Job Position Sharing](https://icehrm.com/explore/wp-content/uploads/2022/09/Untitled-design-41.png)
 
 
 
