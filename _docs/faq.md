@@ -12,7 +12,7 @@ permalink: /docs/faq/
 
 A manager can only make modifications to their direct reports. First you need to login as the manager and go to Employees -> Employees module.
 
-- In that module click “Login as employee” icon of one of your subordinates.
+- In that module click “Switch to Employee” icon of one of your subordinates.
 
 - Then goto “Time Management” => “Time Sheets” and one of the time sheets (all the time sheets displayed here are belongs to the your switched subordinate)
 
