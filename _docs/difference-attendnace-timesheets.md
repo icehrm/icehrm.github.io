@@ -12,7 +12,7 @@ In icehrm time cards are implemented using time sheets. Time sheets (http://blog
 Attendance represent the time you were in office. It do not store what kind of a work you've been doing or 
 on which project you have been working on. Also attendance can not be approved. 
 
-- Admins can monitor attendance via <code>Employees->Monitor attendance</code>
+- Admins can monitor attendance via <code>Manage->Attendance</code>
 - Employees can register attendance via <code>Time Management -> Attendance</code>
 
 #### Time Sheets
