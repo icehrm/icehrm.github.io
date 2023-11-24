@@ -8,7 +8,7 @@ permalink: /docs/leave-rules/
 
 A Leave rule is one of the unique and advanced features of IceHrm. Using leave rules you can overwrite the behavior of leave types for job titles, employment statuses, or even individual employees. The following examples will show you the proper way to use leave rules
 
-###Example 1
+### Example 1
 
 <div class="note info">
   <p>
@@ -18,7 +18,7 @@ A Leave rule is one of the unique and advanced features of IceHrm. Using leave r
 
 ![icehrm - leave management system - leave rule 1](https://icehrm.com/explore/wp-content/uploads/2022/09/Untitled-900-%C3%97-900px.png)
 
-###Example 2
+### Example 2
 
 <div class="note info">
   <p>
@@ -28,7 +28,7 @@ A Leave rule is one of the unique and advanced features of IceHrm. Using leave r
 
 ![icehrm - leave management system - leave rule 2](https://icehrm.com/explore/wp-content/uploads/2022/09/Untitled-900-%C3%97-900px-1.png)
 
-###Example 3
+### Example 3
 
 <div class="note info">
   <p>
@@ -38,7 +38,7 @@ A Leave rule is one of the unique and advanced features of IceHrm. Using leave r
 
 ![icehrm - leave management system - leave rule 3](https://icehrm.com/explore/wp-content/uploads/2022/09/Untitled-900-%C3%97-900px-2.png)
 
-###Example 4
+### Example 4
 
 <div class="note info">
   <p>

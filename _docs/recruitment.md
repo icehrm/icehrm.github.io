@@ -14,11 +14,11 @@ Recruitment module can be used to:
 - Track candidate progress with notes
 - Share job links with linkedIn, facebook, twitter and google+ directly from icehrm
 
-##Recruitment Setup
+## Recruitment Setup
 
 Using recruitment setup you can add/edit Employment Types, Experience levels, Job Functions, Education Levels, and Benefits. All this information will be used when posting a job.
 
-##Posting a Job
+## Posting a Job
 
 Under the recruitment module, go to the Job Positions and click on Add New. Below are the main fields used to create a job posting. The following table will list out main fields used to create job postings.
 
@@ -159,7 +159,7 @@ You should select a display type when posting a job position. This section detai
 </div> -->
 
 
-##Sharing your job position on social media and using direct links
+## Sharing your job position on social media and using direct links
 
 You can get a direct link to the job position which you can send via email or any other media by clicking on the “Job Link” icon.
 

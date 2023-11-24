@@ -20,7 +20,7 @@ This feature helps to;
 
 After creating a job position you can list all the candidates who have applied for the job position via <code>Recruitment->Candidates</code> module. It should list all the candidates who have applied for your jobs.
 
-####How to add candidates?
+#### How to add candidates?
 
 There are two ways that the candidates get added to IceHrm.
 

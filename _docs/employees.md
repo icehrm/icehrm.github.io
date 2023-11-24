@@ -24,7 +24,7 @@ These values can be defined in admin: Jobs module.
 
 Once an employee is added to the system you will be asked to create a user for the newly added employee
 
-###Switching Employees
+### Switching Employees
 
 One of the key features of IceHrm is, admins and mangers ability to login as another employee. 
 

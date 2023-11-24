@@ -12,6 +12,6 @@ clients with basic information. Once clients are added, you can start creating p
 for these clients. The clients section represent both external and internal clients of the company. 
 That way you can attach each and every project to a client.
 
-###Employee Projects
+### Employee Projects
 Under employee projects tab you can assign projects to employees. You need to add projects to employees to enable them to add time against 
 these projects in time-sheets.
