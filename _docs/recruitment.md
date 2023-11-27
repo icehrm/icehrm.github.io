@@ -6,6 +6,9 @@ next_section: candidates
 permalink: /docs/recruitment/
 ---
 
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/recruitment/).   |
+|-----------------------------------------|
+
 Recruitment module can be used to:
  
 - Post jobs

@@ -6,6 +6,9 @@ next_section: icehrm-pro
 permalink: /docs/payroll-setup/
 ---
 
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/payroll/).   |
+|-----------------------------------------|
+
 ### Payroll Module Usage
 
 You may use IceHrm to achieve the following tasks:

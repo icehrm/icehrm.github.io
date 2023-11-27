@@ -5,6 +5,10 @@ prev_section: candidates
 next_section: documents
 permalink: /docs/projects/
 ---
+
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs/projects-and-clients-for-timesheets/).   |
+|-----------------------------------------|
+
 Projects module is used to add projects and assign projects to employees
 
 Each and every project is attached to a client. Because of that, IceHrm allow adding 

@@ -6,6 +6,9 @@ next_section: recruitment
 permalink: /docs/training/
 ---
 
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/training/).   |
+|-----------------------------------------|
+
 ## Setting Up Training Module
 
 Training module in IceHrm can be used to manage process of providing internal trainings for employees.

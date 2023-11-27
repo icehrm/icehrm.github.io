@@ -6,6 +6,9 @@ next_section: leave-admin
 permalink: /docs/documents/
 ---
 
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/documents/).   |
+|-----------------------------------------|
+
 #### Document Types
 
 Document Types tab is used to define various documents relevant to your organization. 

@@ -6,6 +6,9 @@ next_section: payroll-setup
 permalink: /docs/salary/
 ---
 
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs/salary/).   |
+|-----------------------------------------|
+
 ### Defining Employee Salary Details
 
 Using the IceHrm Payroll -> Salary section, you can add employees’ salary details. You need to enter the salary details under this section so when you generate the payroll report, the system will automatically generate and calculate the data. We have three sections to do this:

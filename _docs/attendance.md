@@ -6,6 +6,9 @@ next_section: timesheets
 permalink: /docs/attendance/
 ---
 
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/time-and-attendance/).   |
+|-----------------------------------------|
+
 Employees can record attendance via Time Management -> Attendance. While recording attendance they can select the time they arrive and leave the office.
 
 When tracking attendance you can either let your employees enter the time when recording attendance or configure it to use server time.

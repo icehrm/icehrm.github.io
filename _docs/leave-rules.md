@@ -6,6 +6,9 @@ next_section: home
 permalink: /docs/leave-rules/
 ---
 
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/leave-management/).   |
+|-----------------------------------------|
+
 A Leave rule is one of the unique and advanced features of IceHrm. Using leave rules you can overwrite the behavior of leave types for job titles, employment statuses, or even individual employees. The following examples will show you the proper way to use leave rules
 
 ### Example 1

@@ -6,6 +6,9 @@ next_section: diff-attendance-timesheets
 permalink: /docs/timesheets/
 ---
 
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/time-and-attendance/).   |
+|-----------------------------------------|
+
 Time sheet is a document which indicates the hours an employee has worked, generally separated by days of the week.
 
 In IceHrm employees can edit time sheets under Time Management -> Time Sheets. Current week time sheet is automatically

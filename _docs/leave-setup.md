@@ -6,6 +6,9 @@ next_section: leave-rules
 permalink: /docs/leave-setup/
 ---
 
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/leave-management/).   |
+|-----------------------------------------|
+
 #### Setting Up Leave Module
 
 Since I've have noticed that its not a trivial task to setup the icehrm leave module initially when moving from another 

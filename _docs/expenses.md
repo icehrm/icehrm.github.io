@@ -6,6 +6,9 @@ next_section: auditlog
 permalink: /docs/expenses/
 ---
 
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/expenses/).   |
+|-----------------------------------------|
+
 #### Configuring Expenses Module
 
 Expense categories and payment methods can be configured under <code>Manage -> Expenses</code>.

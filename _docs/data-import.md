@@ -6,6 +6,9 @@ next_section: jobdetails
 permalink: /docs/data-import/
 ---
 
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs/importing-basic-employee-data/).   |
+|-----------------------------------------|
+
 You can import data into icehrm using CSV files. By default we support importing basic employee details and attendance data.
 
 ### Preparing Employee Data for Upload

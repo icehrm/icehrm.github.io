@@ -6,6 +6,9 @@ next_section: faq
 permalink: /docs/installation/
 ---
 
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/getting-started/).   |
+|-----------------------------------------|
+
 Getting IceHrm installed only take a few minutes. If it
 ever becomes a problem, please <a href="https://github.com/gamonoid/icehrm/issues/new" target="_blank">file an issue</a>
 describing the issue you encountered and how we might make the process easier.

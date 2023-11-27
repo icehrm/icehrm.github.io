@@ -5,6 +5,10 @@ prev_section: ldap
 next_section: employee
 permalink: /docs/companystructure/
 ---
+
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs/defining-company-structure/).   |
+|-----------------------------------------|
+
 Company structure module allows you to define the structure of you company by 
 creating parent structure of the company, branches, departments and other 
 company units. Also it provides a graphical overview of how each of 

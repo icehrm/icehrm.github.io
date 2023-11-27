@@ -6,6 +6,9 @@ next_section: charts
 permalink: /docs/auditlog/
 ---
 
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs/audit-log/).   |
+|-----------------------------------------|
+
 #### Audit Logging
 The IceHrm Audit Log records all the activities performed by different users in the system. An audit log can help you monitor activities and even identify any potential security breaches and prevent unfavorable events. To access the audit log, go to Admin -> Audit log.
 

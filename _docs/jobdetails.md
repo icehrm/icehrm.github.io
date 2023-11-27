@@ -5,6 +5,10 @@ prev_section: data-import
 next_section: qualifications
 permalink: /docs/jobdetails/
 ---
+
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs/job-details-and-qualifications-set-up/).   |
+|-----------------------------------------|
+
 Go to Admin -> Job Details Setup to set up all the information related to job titles, pay grades, and employment status in your company.
 
 Here you can setup all the information related to job titles, pay grades and employment status in your company.

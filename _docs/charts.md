@@ -6,6 +6,9 @@ next_section: leave-admin
 permalink: /docs/charts/
 ---
 
+| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs/charts/).   |
+|-----------------------------------------|
+
 Attendance Monitoring charts are very useful when you when to get a quick abstract look at how
 all the employees or a specific employee attend to their work. It shows how much time they spend
 time in the office against how much time they actually putting into time sheets.
