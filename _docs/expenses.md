@@ -6,8 +6,8 @@ next_section: auditlog
 permalink: /docs/expenses/
 ---
 
-| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/expenses/).   |
-|-----------------------------------------|
+> **Note**  
+The latest documentation is available [here](https://icehrm.com/explore/docs-category/expenses/).   
 
 #### Configuring Expenses Module
 

@@ -6,8 +6,8 @@ next_section: payroll-setup
 permalink: /docs/salary/
 ---
 
-| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs/salary/).   |
-|-----------------------------------------|
+> **Note**  
+The latest documentation is available [here](https://icehrm.com/explore/docs/salary/).  
 
 ### Defining Employee Salary Details
 

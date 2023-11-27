@@ -6,8 +6,8 @@ next_section: timesheets
 permalink: /docs/attendance/
 ---
 
-| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/time-and-attendance/).   |
-|-----------------------------------------|
+> **Note**  
+The latest documentation is available [here](https://icehrm.com/explore/docs-category/time-and-attendance/). 
 
 Employees can record attendance via Time Management -> Attendance. While recording attendance they can select the time they arrive and leave the office.
 

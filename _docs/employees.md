@@ -6,8 +6,8 @@ next_section: data-import
 permalink: /docs/employees/
 ---
 
-| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/employees/).   |
-|-----------------------------------------|
+> **Note**  
+The latest documentation is available [here](https://icehrm.com/explore/docs-category/employees/). 
 
 Employees module is used to list, edit, add and search employees in your company. 
 You can use the search box to search employees by ID, name or department. 

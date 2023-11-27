@@ -6,8 +6,8 @@ next_section: leave-rules
 permalink: /docs/leave-admin/
 ---
 
-| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/leave-management/).   |
-|-----------------------------------------|
+> **Note**  
+The latest documentation is available [here](https://icehrm.com/explore/docs-category/leave-management/).
 
 IceHrm has once of the best leave management systems among all the HRM software.
 Leaves module is used to define all the elements required to manage leave application process of your company, 

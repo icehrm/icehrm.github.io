@@ -6,8 +6,8 @@ next_section: training
 permalink: /docs/qualifications/
 ---
 
-| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs/job-details-and-qualifications-set-up/).   |
-|-----------------------------------------|
+> **Note**  
+The latest documentation is available [here](https://icehrm.com/explore/docs/job-details-and-qualifications-set-up/).
 
 Go to<b> Admin -> Qualifications Setup</b> to define skills, Educational Details, Certifications, and Languages that can be used by employees or admins to attach qualifications to their profiles.
  

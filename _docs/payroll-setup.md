@@ -6,8 +6,8 @@ next_section: icehrm-pro
 permalink: /docs/payroll-setup/
 ---
 
-| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/payroll/).   |
-|-----------------------------------------|
+> **Note**  
+The latest documentation is available [here](https://icehrm.com/explore/docs-category/payroll/). 
 
 ### Payroll Module Usage
 

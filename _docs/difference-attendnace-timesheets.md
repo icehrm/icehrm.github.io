@@ -5,8 +5,8 @@ prev_section: timesheets
 next_section: documents
 permalink: /docs/diff-attendance-timesheets/
 ---
-| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs/).   |
-|-----------------------------------------|
+> **Note**  
+The latest documentation is available [here](https://icehrm.com/explore/docs/).   
 
 In icehrm time cards are implemented using time sheets. Time sheets (http://blog.icehrm.com/docs/timesheets/) and attendance are different concepts in icehrm. 
 

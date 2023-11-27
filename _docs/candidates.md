@@ -10,8 +10,8 @@ permalink: /docs/candidates/
   <p></p>
 </div>
 
-| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs-category/recruitment/).   |
-|-----------------------------------------|
+> **Note**  
+The latest documentation is available [here](https://icehrm.com/explore/docs-category/recruitment/). 
 
 This feature helps to;
 

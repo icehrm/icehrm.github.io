@@ -6,8 +6,8 @@ next_section: changelog
 permalink: /docs/icehrm-usage/
 ---
 
-| :exclamation:  The latest documentation is available [here](https://icehrm.com/explore/docs/).   |
-|-----------------------------------------|
+> **Note**  
+The latest documentation is available [here](https://icehrm.com/explore/docs/). 
 
 ## What can I do using IceHrm
 
