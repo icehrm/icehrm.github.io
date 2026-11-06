@@ -1,0 +1,1 @@
+import{j as t}from"./php-worker-hj795wuz.js";async function e(){return await t()?await import("./php_5_2-CHLpt_sK.js"):await import("./php_5_2-CnWRIxL4.js")}async function i(){throw new Error("The intl extension is not available for PHP 5.2.")}export{i as getIntlExtensionPath,e as getPHPLoaderModule,t as jspi};

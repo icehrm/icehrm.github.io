@@ -1,0 +1,1 @@
+import{j as t}from"./php-worker-hj795wuz.js";async function i(){return await t()?await import("./php_8_4-Did9HV75.js"):await import("./php_8_4-B6D8A4Ip.js")}async function e(){return await t()?(await import("./intl-CycVRQDs.js")).default:(await import("./intl-D9Zcx0fv.js")).default}export{e as getIntlExtensionPath,i as getPHPLoaderModule,t as jspi};
